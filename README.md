@@ -1,12 +1,14 @@
 <div align="center">
 
-# Hi 👋, I'm Sumanth Dusanapudi
+<img width="100%" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/assets/terminal-profile.svg" alt="Sumanth Dusanapudi terminal profile card" />
 
-### AI Engineer | Generative AI | RAG | LangChain | FastAPI
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&center=true&vCenter=true&width=700&lines=Building+Intelligent+AI+Applications;Working+with+RAG+%26+LLM+Workflows;FastAPI+%7C+React+%7C+LangChain;Learning+MCP+%26+Multi-Agent+AI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Building+Intelligent+AI+Applications;Working+with+RAG+%26+LLM+Workflows;FastAPI+%7C+React+%7C+LangChain;Learning+MCP+%26+Multi-Agent+AI" alt="Typing SVG" />
 
-<img src="https://komarev.com/ghpvc/?username=Sumanthduasanapudi&label=Profile%20Views&style=for-the-badge" alt="Profile views" />
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Sumanthduasanapudi&label=PROFILE%20VIEWS&style=for-the-badge&color=0e75b6" alt="Profile views" />
 
 </div>
 
@@ -98,29 +100,11 @@ AI-powered news intelligence application that processes news and generates struc
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sumanthduasanapudi&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sumanthduasanapudi&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-</div>
+## 📊 GitHub Activity
 
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=Sumanthduasanapudi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sumanthduasanapudi&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
 
 </div>
 
@@ -131,9 +115,9 @@ AI-powered news intelligence application that processes news and generates struc
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
