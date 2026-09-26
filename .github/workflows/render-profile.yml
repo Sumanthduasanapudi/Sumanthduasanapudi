@@ -1,0 +1,78 @@
+name: Render Profile Hero
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "dark.svg"
+      - "light.svg"
+      - ".github/workflows/render-profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install renderer
+        run: pip install cairosvg
+
+      - name: Render profile PNGs
+        shell: python
+        run: |
+          import re
+          import cairosvg
+          from pathlib import Path
+
+          def prepare(src, tmp):
+              s = Path(src).read_text(encoding="utf-8")
+              # Make embedded portrait visible in the static PNG render.
+              s = re.sub(r'(<image[^>]+)opacity="0"', r'\1opacity="1"', s, count=1, flags=re.S)
+              # Remove only the portrait fade-in animation nested inside <image>.
+              s = re.sub(
+                  r'(<image[^>]*>)(\s*<animate\s+attributeName="opacity"[^>]*/>)(\s*</image>)',
+                  r'\1\3',
+                  s,
+                  count=1,
+                  flags=re.S,
+              )
+              Path(tmp).write_text(s, encoding="utf-8")
+
+          prepare("dark.svg", "/tmp/dark-static.svg")
+          prepare("light.svg", "/tmp/light-static.svg")
+
+          cairosvg.svg2png(
+              url="/tmp/dark-static.svg",
+              write_to="dark-profile.png",
+              output_width=1180,
+              output_height=610,
+          )
+          cairosvg.svg2png(
+              url="/tmp/light-static.svg",
+              write_to="light-profile.png",
+              output_width=1180,
+              output_height=610,
+          )
+
+      - name: Commit rendered profile images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark-profile.png light-profile.png
+          if git diff --cached --quiet; then
+            echo "No image changes"
+          else
+            git commit -m "Render profile hero images"
+            git push
+          fi
