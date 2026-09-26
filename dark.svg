@@ -1,165 +1,239 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="1180" height="610" viewBox="0 0 1180 610"
+  role="img"
+  aria-label="Sumanth Dusanapudi — AI Engineer profile with terminal visual map, system information, core stack, Royal AI and NewsPulse AI projects">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#071017"/>
-      <stop offset="55%" stop-color="#08151f"/>
-      <stop offset="100%" stop-color="#0b1020"/>
+      <stop offset="0%" stop-color="#030712">
+        <animate attributeName="stop-color" values="#030712;#07111F;#030712" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#0B1220">
+        <animate attributeName="stop-color" values="#0B1220;#0D1630;#0B1220" dur="16s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00f5d4"/>
-      <stop offset="55%" stop-color="#35c8ff"/>
-      <stop offset="100%" stop-color="#7c4dff"/>
+
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.18 0;0.18 0;-0.18 0" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <radialGradient id="orb1" cx="20%" cy="15%" r="75%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="85%" cy="80%" r="70%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#152033" stroke-width=".7" opacity=".32"/>
+    </pattern>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity=".38"/>
+    </filter>
+
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="portrait">
-      <path d="M215 156
-               C190 170 176 197 174 226
-               C172 245 179 267 190 282
-               C199 295 206 306 206 321
-               C206 336 197 348 186 354
-               C150 370 126 394 115 430
-               C101 478 99 517 105 545
-               L420 545
-               C426 507 424 471 415 438
-               C405 398 378 370 341 354
-               C328 348 319 336 319 321
-               C319 306 327 293 338 278
-               C350 260 356 238 353 218
-               C350 183 333 158 306 146
-               C284 137 237 140 215 156 Z"/>
-    </clipPath>
+
+    <clipPath id="leftClip"><rect x="32" y="74" width="420" height="500" rx="22"/></clipPath>
+
     <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-      .small{font-size:14px}
-      .mid{font-size:18px}
-      .label{fill:#5eead4;font-weight:700}
-      .value{fill:#dbeafe}
-      .muted{fill:#7f98ad}
-      .cursor{animation:blink 1s steps(1) infinite}
-      .scan{animation:scan 5s linear infinite}
-      .pulse{animation:pulse 2.8s ease-in-out infinite}
-      @keyframes blink{50%{opacity:0}}
-      @keyframes scan{0%{transform:translateY(-80px)}100%{transform:translateY(470px)}}
-      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:.85}}
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
+      .sans{font-family:Inter,Arial,Helvetica,sans-serif}
+      .terminal{font:600 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#94A3B8}
+      .eyebrow{font:700 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2.2px;fill:#22D3EE}
+      .name{font:800 34px Inter,Arial,Helvetica,sans-serif;fill:#F8FAFC}
+      .headline{font:600 16px Inter,Arial,Helvetica,sans-serif;fill:#94A3B8}
+      .ascii{font:600 9.6px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:url(#accentGrad);white-space:pre}
+      .leftRole{font:800 18px Inter,Arial,Helvetica,sans-serif;fill:#F8FAFC;letter-spacing:1.1px}
+      .prompt{font:600 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#10B981}
+      .section{font:800 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2.4px;fill:#22D3EE}
+      .label{font:700 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px;fill:#94A3B8;text-anchor:end}
+      .value{font:600 15px Inter,Arial,Helvetica,sans-serif;fill:#F8FAFC}
+      .pill{fill:#101B30;stroke:#24324A;stroke-width:1}
+      .pillText{font:600 12px Inter,Arial,Helvetica,sans-serif;fill:#F8FAFC}
+      .link{font:600 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#22D3EE}
     </style>
   </defs>
 
-  <rect width="1200" height="620" rx="28" fill="url(#bg)"/>
-  <rect x="1.5" y="1.5" width="1197" height="617" rx="26.5" fill="none" stroke="#183248" stroke-width="3"/>
+  <rect x="0" y="0" width="1180" height="610" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1180" height="610" rx="26" fill="url(#grid)" opacity=".55"/>
+  <rect x="0" y="0" width="1180" height="610" rx="26" fill="url(#orb1)"/>
+  <rect x="0" y="0" width="1180" height="610" rx="26" fill="url(#orb2)"/>
+  <rect x="1.5" y="1.5" width="1177" height="607" rx="24.5" fill="none" stroke="#24324A" stroke-width="2"/>
 
-  <!-- terminal top bar -->
-  <rect x="0" y="0" width="1200" height="58" rx="28" fill="#07121d"/>
-  <rect x="0" y="28" width="1200" height="30" fill="#07121d"/>
-  <circle cx="28" cy="29" r="7" fill="#ff5f57"/>
-  <circle cx="52" cy="29" r="7" fill="#febc2e"/>
-  <circle cx="76" cy="29" r="7" fill="#28c840"/>
-  <text x="600" y="36" text-anchor="middle" class="mono small muted">sumanth@ai-engineer: ~/github/profile</text>
+  <!-- terminal chrome -->
+  <rect x="0" y="0" width="1180" height="48" rx="26" fill="#0B1324" fill-opacity=".78"/>
+  <rect x="0" y="24" width="1180" height="24" fill="#0B1324" fill-opacity=".78"/>
+  <circle cx="28" cy="24" r="6" fill="#FF5F57"/>
+  <circle cx="50" cy="24" r="6" fill="#FEBC2E"/>
+  <circle cx="72" cy="24" r="6" fill="#28C840"/>
+  <text x="100" y="29" class="terminal">sumanth@developer:~</text>
+  <g transform="translate(1016,13)">
+    <rect width="132" height="24" rx="12" fill="#10B981" fill-opacity=".12" stroke="#10B981" stroke-opacity=".55"/>
+    <circle cx="17" cy="12" r="4" fill="#10B981">
+      <animate attributeName="opacity" values=".5;1;.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="32" y="17" class="terminal" fill="#10B981">ONLINE</text>
+  </g>
 
-  <!-- left portrait panel -->
-  <rect x="34" y="84" width="500" height="496" rx="22" fill="#08131e" stroke="#15304a"/>
-  <text x="58" y="118" class="mono small label">$ render --identity</text>
-  <text x="58" y="144" class="mono small muted">code-portrait://Sumanthduasanapudi</text>
+  <!-- panels -->
+  <rect x="32" y="74" width="420" height="500" rx="22" fill="#0F172A" fill-opacity=".56" stroke="#24324A" filter="url(#shadow)"/>
+  <rect x="474" y="74" width="674" height="500" rx="22" fill="#0F172A" fill-opacity=".56" stroke="#24324A" filter="url(#shadow)"/>
 
-  <!-- portrait silhouette background -->
-  <path d="M215 156
-           C190 170 176 197 174 226
-           C172 245 179 267 190 282
-           C199 295 206 306 206 321
-           C206 336 197 348 186 354
-           C150 370 126 394 115 430
-           C101 478 99 517 105 545
-           L420 545
-           C426 507 424 471 415 438
-           C405 398 378 370 341 354
-           C328 348 319 336 319 321
-           C319 306 327 293 338 278
-           C350 260 356 238 353 218
-           C350 183 333 158 306 146
-           C284 137 237 140 215 156 Z"
-        fill="#0a2230" stroke="url(#cyan)" stroke-width="2.5" filter="url(#glow)"/>
+  <!-- left -->
+  <text x="58" y="108" class="section">VISUAL.MAP</text>
+  <text x="58" y="130" class="terminal">[ profile / engineering ]</text>
 
-  <!-- code texture clipped inside portrait -->
-  <g clip-path="url(#portrait)" opacity=".95">
-    <rect x="100" y="130" width="330" height="430" fill="#071820"/>
-    <g class="mono" font-size="11" fill="#4de9d8">
-      <text x="108" y="158">AI_ENGINEER::SUMANTH::RAG::FASTAPI::REACT::LLM::LANGCHAIN::MCP</text>
-      <text x="108" y="176">01001001 01000001 00100000 01010010 01000001 01000111 00100000</text>
-      <text x="108" y="194">from fastapi import FastAPI  # build intelligent systems</text>
-      <text x="108" y="212">agent.role = "AI Engineer" ; workflow = "production-minded"</text>
-      <text x="108" y="230">vector_search(query) -&gt; grounded_context -&gt; answer</text>
-      <text x="108" y="248">React → Express → FastAPI → LangChain → Claude</text>
-      <text x="108" y="266">MCP_HOST | MCP_CLIENT | MCP_SERVER | TOOLS | RESOURCES</text>
-      <text x="108" y="284">ROYAL_AI :: NEWSPULSE_AI :: BUILD :: TEST :: IMPROVE</text>
-      <text x="108" y="302">python node react api rag embeddings agents orchestration</text>
-      <text x="108" y="320">01100001 01101001 00100000 01100101 01101110 01100111</text>
-      <text x="108" y="338">def learn(): return build() + debug() + improve()</text>
-      <text x="108" y="356">status = "shipping AI projects"</text>
-      <text x="108" y="374">skills += ["Python","FastAPI","React","LangChain","RAG"]</text>
-      <text x="108" y="392">focus = {"agents","MCP","tool-use","AI workflows"}</text>
-      <text x="108" y="410">while curious: experiment(); document(); commit()</text>
-      <text x="108" y="428">git add .  &&  git commit -m "keep building"</text>
-      <text x="108" y="446">AI_ENGINEER::SUMANTH::AI_ENGINEER::SUMANTH::AI_ENGINEER</text>
-      <text x="108" y="464">ROYAL_AI::NEWSPULSE::FASTAPI::LANGCHAIN::RAG::MCP::CLAUDE</text>
-      <text x="108" y="482">01010011 01010101 01001101 01000001 01001110 01010100 01001000</text>
-      <text x="108" y="500">build_real_projects(); explain_clearly(); grow_daily();</text>
-      <text x="108" y="518">AI // LLM // RAG // API // FULL STACK // AGENTS // MCP</text>
-      <text x="108" y="536">github.com/Sumanthduasanapudi</text>
+  <g clip-path="url(#leftClip)">
+    <text x="84" y="160.0" class="ascii" opacity="0">                 .:+*##*+:.                 <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.00s" fill="freeze"/></text>
+<text x="84" y="172.4" class="ascii" opacity="0">             .+%@@@@@@@@@@%+.               <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.04s" fill="freeze"/></text>
+<text x="84" y="184.8" class="ascii" opacity="0">           .*@@@@%#****#%@@@@*.             <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.07s" fill="freeze"/></text>
+<text x="84" y="197.2" class="ascii" opacity="0">          +@@@%*:.      .:*%@@@+            <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.11s" fill="freeze"/></text>
+<text x="84" y="209.6" class="ascii" opacity="0">         #@@@+.   .::::.   .+@@@#           <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.14s" fill="freeze"/></text>
+<text x="84" y="222.0" class="ascii" opacity="0">        +@@#.   .+######+.   .#@@+          <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.18s" fill="freeze"/></text>
+<text x="84" y="234.4" class="ascii" opacity="0">        %@@:   :##*++++*##:   :@@%          <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.21s" fill="freeze"/></text>
+<text x="84" y="246.8" class="ascii" opacity="0">       .@@#   +#*:      :*#+   #@@.         <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.25s" fill="freeze"/></text>
+<text x="84" y="259.2" class="ascii" opacity="0">       :@@*  .##.  .::.  .##.  *@@:         <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.28s" fill="freeze"/></text>
+<text x="84" y="271.6" class="ascii" opacity="0">       :@@+  :##.  +**+  .##:  +@@:         <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.32s" fill="freeze"/></text>
+<text x="84" y="284.0" class="ascii" opacity="0">       .@@#   *#*.      .*#*   #@@.         <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.35s" fill="freeze"/></text>
+<text x="84" y="296.4" class="ascii" opacity="0">        %@@:   *##+....+##*   :@@%          <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.39s" fill="freeze"/></text>
+<text x="84" y="308.8" class="ascii" opacity="0">        +@@#.   :*######*:   .#@@+          <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.42s" fill="freeze"/></text>
+<text x="84" y="321.2" class="ascii" opacity="0">         #@@@+.   .::::.   .+@@@#           <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.46s" fill="freeze"/></text>
+<text x="84" y="333.6" class="ascii" opacity="0">          +@@@%*:.      .:*%@@@+            <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.49s" fill="freeze"/></text>
+<text x="84" y="346.0" class="ascii" opacity="0">           .*@@@@%#****#%@@@@*.             <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.53s" fill="freeze"/></text>
+<text x="84" y="358.4" class="ascii" opacity="0">             .+%@@@@@@@@@@%+.               <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.56s" fill="freeze"/></text>
+<text x="84" y="370.8" class="ascii" opacity="0">               .:+*####*+:.                 <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.60s" fill="freeze"/></text>
+<text x="84" y="383.2" class="ascii" opacity="0">              .:+*######*+:.                <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.63s" fill="freeze"/></text>
+<text x="84" y="395.6" class="ascii" opacity="0">           .+%@@@@@@@@@@@@@@%+.             <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.67s" fill="freeze"/></text>
+<text x="84" y="408.0" class="ascii" opacity="0">        .+%@@@@@@@@@@@@@@@@@@@@%+.          <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.70s" fill="freeze"/></text>
+<text x="84" y="420.4" class="ascii" opacity="0">      .*@@@@@@@@@@@@@@@@@@@@@@@@@@*.        <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.74s" fill="freeze"/></text>
+<text x="84" y="432.8" class="ascii" opacity="0">     +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+       <animate attributeName="opacity" values="0;1" dur=".24s" begin="0.77s" fill="freeze"/></text>
+
+    <rect x="52" y="126" width="374" height="2" fill="#22D3EE" opacity=".18">
+      <animate attributeName="y" values="126;438;126" dur="5.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".08;.35;.08" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".5s" begin=".95s" fill="freeze"/>
+    <text x="242" y="470" text-anchor="middle" class="leftRole">AI ENGINEER</text>
+    <text x="242" y="494" text-anchor="middle" class="headline">Generative AI · RAG · Full-Stack AI</text>
+    <text x="58" y="535" class="prompt">~/profile $ build --ship</text>
+    <rect x="232" y="521" width="9" height="18" rx="1" fill="#10B981">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- right -->
+  <text x="510" y="108" class="section">SYSTEM.INFO</text>
+  <text x="510" y="132" class="terminal">sumanth@developer:~$ ./profile.sh</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".45s" begin=".25s" fill="freeze"/>
+    <text x="510" y="172" class="name">Sumanth Dusanapudi</text>
+    <text x="510" y="196" class="headline">AI Engineer · Generative AI · RAG Builder</text>
+  </g>
+
+  
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="0.70s" fill="freeze"/>
+        <text x="520" y="212" class="label">NAME</text>
+        <text x="662" y="212" class="value">Sumanth Dusanapudi</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="0.83s" fill="freeze"/>
+        <text x="520" y="253" class="label">ROLE</text>
+        <text x="662" y="253" class="value">AI Engineer</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="0.96s" fill="freeze"/>
+        <text x="520" y="294" class="label">FOCUS</text>
+        <text x="662" y="294" class="value">Generative AI · LLMs · RAG</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="1.09s" fill="freeze"/>
+        <text x="520" y="335" class="label">BACKEND</text>
+        <text x="662" y="335" class="value">Python · FastAPI · Node.js · Express</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="1.22s" fill="freeze"/>
+        <text x="520" y="376" class="label">FRONTEND</text>
+        <text x="662" y="376" class="value">React · JavaScript</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="1.35s" fill="freeze"/>
+        <text x="520" y="417" class="label">AI STACK</text>
+        <text x="662" y="417" class="value">LangChain · Claude · MCP</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur=".35s" begin="1.48s" fill="freeze"/>
+        <text x="520" y="458" class="label">BUILDING</text>
+        <text x="662" y="458" class="value">Royal AI · NewsPulse AI</text>
+      </g>
+
+  <text x="510" y="444" class="section">CORE.STACK</text>
+  
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.65s" fill="freeze"/>
+      <rect x="520" y="470" width="96" height="30" rx="15" class="pill"/>
+      <circle cx="536" cy="485" r="4" fill="#10B981"/>
+      <text x="548" y="490" class="pillText">Python</text>
     </g>
-    <rect class="scan" x="95" y="120" width="350" height="3" fill="#5eead4" opacity=".45" filter="url(#glow)"/>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.73s" fill="freeze"/>
+      <rect x="624" y="470" width="104" height="30" rx="15" class="pill"/>
+      <circle cx="640" cy="485" r="4" fill="#22D3EE"/>
+      <text x="652" y="490" class="pillText">FastAPI</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.81s" fill="freeze"/>
+      <rect x="736" y="470" width="86" height="30" rx="15" class="pill"/>
+      <circle cx="752" cy="485" r="4" fill="#10B981"/>
+      <text x="764" y="490" class="pillText">React</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.89s" fill="freeze"/>
+      <rect x="830" y="470" width="120" height="30" rx="15" class="pill"/>
+      <circle cx="846" cy="485" r="4" fill="#22D3EE"/>
+      <text x="858" y="490" class="pillText">LangChain</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="1.97s" fill="freeze"/>
+      <rect x="958" y="470" width="74" height="30" rx="15" class="pill"/>
+      <circle cx="974" cy="485" r="4" fill="#10B981"/>
+      <text x="986" y="490" class="pillText">RAG</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur=".3s" begin="2.05s" fill="freeze"/>
+      <rect x="1040" y="470" width="70" height="30" rx="15" class="pill"/>
+      <circle cx="1056" cy="485" r="4" fill="#22D3EE"/>
+      <text x="1068" y="490" class="pillText">MCP</text>
+    </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur=".35s" begin="2.15s" fill="freeze"/>
+    <line x1="510" y1="521" x2="1112" y2="521" stroke="#24324A" stroke-width="1"/>
+    <text x="510" y="548" class="link">github.com/Sumanthduasanapudi</text>
+    <text x="1112" y="548" text-anchor="end" class="terminal">Royal AI · NewsPulse AI</text>
   </g>
 
-  <!-- glasses / face line art -->
-  <g fill="none" stroke="#dffcff" stroke-width="3" opacity=".95">
-    <rect x="199" y="231" width="48" height="29" rx="11"/>
-    <rect x="268" y="231" width="48" height="29" rx="11"/>
-    <path d="M247 243 H268"/>
-    <path d="M259 260 C254 275 254 282 264 287"/>
-    <path d="M236 303 C252 314 274 314 291 303" stroke="#5eead4"/>
-  </g>
-
-  <text x="284" y="563" text-anchor="middle" class="mono mid" fill="#e6f7ff">SUMANTH DUSANAPUDI</text>
-
-  <!-- right info panel -->
-  <rect x="566" y="84" width="600" height="496" rx="22" fill="#08131e" stroke="#15304a"/>
-  <text x="596" y="121" class="mono small label">$ cat profile.json</text>
-  <text x="596" y="155" class="mono" font-size="29" font-weight="700" fill="#ffffff">Hi, I'm Sumanth Dusanapudi</text>
-  <text x="596" y="184" class="mono mid" fill="#8dc8e8">AI Engineer · Generative AI · Full-Stack AI Builder</text>
-
-  <line x1="596" y1="208" x2="1134" y2="208" stroke="#17334d"/>
-
-  <text x="596" y="244" class="mono small label">ROLE</text>
-  <text x="750" y="244" class="mono small value">AI Engineer</text>
-
-  <text x="596" y="278" class="mono small label">CORE</text>
-  <text x="750" y="278" class="mono small value">Generative AI · LLMs · RAG · AI Workflows</text>
-
-  <text x="596" y="312" class="mono small label">BACKEND</text>
-  <text x="750" y="312" class="mono small value">Python · FastAPI · Node.js · Express</text>
-
-  <text x="596" y="346" class="mono small label">FRONTEND</text>
-  <text x="750" y="346" class="mono small value">React · JavaScript · HTML · CSS</text>
-
-  <text x="596" y="380" class="mono small label">AI STACK</text>
-  <text x="750" y="380" class="mono small value">LangChain · Claude · RAG · MCP</text>
-
-  <text x="596" y="414" class="mono small label">PROJECTS</text>
-  <text x="750" y="414" class="mono small value">Royal AI · NewsPulse AI</text>
-
-  <text x="596" y="448" class="mono small label">LEARNING</text>
-  <text x="750" y="448" class="mono small value">MCP · Multi-Agent Systems · CrewAI</text>
-
-  <text x="596" y="482" class="mono small label">STATUS</text>
-  <text x="750" y="482" class="mono small" fill="#9be9a8">● BUILDING / LEARNING / IMPROVING</text>
-
-  <rect x="596" y="514" width="538" height="1.5" fill="#17334d"/>
-  <text x="596" y="546" class="mono small" fill="#5eead4">$ echo</text>
-  <text x="665" y="546" class="mono small value">"Turning ideas into working AI products"</text>
-  <rect x="1020" y="531" width="10" height="19" fill="#5eead4" class="cursor"/>
-
-  <!-- accents -->
-  <circle cx="1125" cy="118" r="5" fill="#5eead4" class="pulse"/>
-  <circle cx="1145" cy="118" r="5" fill="#60a5fa" class="pulse"/>
+  <!-- subtle particles -->
+  <circle cx="460" cy="102" r="2.2" fill="#22D3EE" opacity=".55">
+    <animateTransform attributeName="transform" type="translate" values="0 0;6 12;0 0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1120" cy="92" r="2.6" fill="#10B981" opacity=".5">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-8 16;0 0" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1088" cy="558" r="2.1" fill="#7C3AED" opacity=".45">
+    <animate attributeName="opacity" values=".2;.7;.2" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
