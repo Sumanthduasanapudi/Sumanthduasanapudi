@@ -1,25 +1,24 @@
 # Hi, I'm Sumanth Dusanapudi 👋
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
-  <img src="./dark.svg" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and Full-Stack AI Builder">
-</picture>
-
 <p align="center">
-  <b>AI Engineer · Generative AI · RAG · Full-Stack AI Builder</b>
+  <img width="100%" src="./assets/showcase-dark.svg" alt="Sumanth Dusanapudi GitHub Showcase"/>
 </p>
 
 <p align="center">
-  🤖 AI / LLMs &nbsp;·&nbsp; 🐍 Python &nbsp;·&nbsp; ⚡ FastAPI &nbsp;·&nbsp; ⚛️ React
-  &nbsp;·&nbsp; 🔗 LangChain &nbsp;·&nbsp; 🧠 RAG &nbsp;·&nbsp; 🔌 MCP
+  <img src="https://komarev.com/ghpvc/?username=Sumanthduasanapudi&label=PROFILE%20VIEWS&style=for-the-badge&color=16c738" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/Sumanthduasanapudi?label=FOLLOWERS&style=for-the-badge&color=16c738" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/Sumanthduasanapudi?label=STARS&style=for-the-badge&color=16c738" alt="Stars"/>
 </p>
+
+## 🐍 Snake Trail
 
 <p align="center">
-  I build end-to-end AI applications, intelligent workflows, APIs and full-stack AI products.
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
+    <img width="100%" alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
+  </picture>
 </p>
-
----
 
 ## 🚀 About Me
 
@@ -27,114 +26,19 @@
 - 🧠 Working with **Generative AI, LLMs, RAG and LangChain**
 - ⚡ Building AI APIs with **FastAPI**
 - 🌐 Creating full-stack applications with **React, Node.js and Express**
-- 🔌 Currently learning **MCP (Model Context Protocol)** and **multi-agent AI**
-- 🎯 Focused on growing as an **AI Engineer**
-
----
-
-## 🧰 Tech Stack
-
-### AI & LLM
-
-![Generative AI](https://img.shields.io/badge/Generative_AI-111827?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-2563EB?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-7C3AED?style=for-the-badge)
-
-### Backend
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
----
+- 🔌 Learning **MCP**, AI agents and tool integration
+- 🎯 Growing as an **AI Engineer**
 
 ## 🌟 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### 🤖 Royal AI
-
-An AI assistant with a three-layer architecture and document-based question answering.
-
-**Highlights**
-- AI chat experience
-- RAG-based document Q&A
-- PDF / DOCX / TXT support
-- React frontend
-- Node.js + Express backend
-- FastAPI AI layer
-
-[View Repository →](https://github.com/Sumanthduasanapudi/royal-ai)
-
-</td>
-<td width="50%" valign="top">
+AI assistant with RAG-based document Q&A, PDF/DOCX/TXT support and a three-layer architecture.  
+[View Royal AI](https://github.com/Sumanthduasanapudi/royal-ai)
 
 ### 📰 NewsPulse AI
-
-AI-powered news intelligence application that processes news and generates structured briefings.
-
-**Highlights**
-- News collection and AI analysis
-- Story intelligence workflow
-- LangChain-based AI workflow
-- React frontend
-- Express backend
-- FastAPI + Claude AI layer
-
-[View Repository →](https://github.com/Sumanthduasanapudi/newspulse-ai)
-
-</td>
-</tr>
-</table>
+AI-powered news intelligence application for collection, clustering, analysis and structured briefings.  
+[View NewsPulse AI](https://github.com/Sumanthduasanapudi/newspulse-ai)
 
 ---
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Sumanthduasanapudi&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 Building. Learning. Improving.
-
-**AI • RAG • LangChain • FastAPI • React • MCP**
-
-</div>
+<p align="center"><b>AI • RAG • LangChain • FastAPI • React • MCP</b></p>
