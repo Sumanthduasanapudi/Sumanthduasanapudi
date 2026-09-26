@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#03110a"/>
+    <stop offset="52%" stop-color="#06130d"/>
+    <stop offset="100%" stop-color="#07101a"/>
+  </linearGradient>
+  <radialGradient id="g1" cx="18%" cy="0%" r="80%">
+    <stop offset="0%" stop-color="#00ff44" stop-opacity=".28"/>
+    <stop offset="100%" stop-color="#00ff44" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="g2" cx="88%" cy="25%" r="70%">
+    <stop offset="0%" stop-color="#3347ff" stop-opacity=".20"/>
+    <stop offset="100%" stop-color="#3347ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#11f33b"/>
+    <stop offset="74%" stop-color="#0a8d25"/>
+    <stop offset="100%" stop-color="#4053ff"/>
+  </linearGradient>
+  <clipPath id="avatarClip"><circle cx="126" cy="132" r="58"/></clipPath>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .sans{font-family:Inter,Arial,Helvetica,sans-serif}
+    .mint{fill:#16ef3d}.white{fill:#eaffef}.muted{fill:#7fb88b}.blue{fill:#7aa3ff}
+    .badge{fill:#071910;stroke:#18c739;stroke-width:1.6}
+    .card{fill:#07140e;stroke:#16b936;stroke-width:1.8}
+  </style>
+</defs>
+
+<rect width="1200" height="940" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="940" rx="28" fill="url(#g1)"/>
+<rect width="1200" height="940" rx="28" fill="url(#g2)"/>
+
+<!-- PROFILE HEADER -->
+<g transform="translate(55,45)">
+  <rect width="1090" height="310" rx="26" fill="#06140d" stroke="url(#border)" stroke-width="2.3"/>
+  <rect x="26" y="25" width="1038" height="260" rx="22" fill="none" stroke="#145a25" stroke-width="1.2"/>
+
+  <circle cx="126" cy="132" r="64" fill="#f2fff5" stroke="#13f23a" stroke-width="4"/>
+  <image href="https://avatars.githubusercontent.com/u/319428566?v=4" x="68" y="74" width="116" height="116" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+
+  <text x="220" y="82" class="mono" font-size="24" font-weight="700" fill="#79f994">@sumanthduasanapudi</text>
+  <text x="220" y="143" class="sans mint" font-size="58" font-weight="800">SUMANTH DUSANAPUDI</text>
+  <text x="220" y="185" class="sans white" font-size="24">Building intelligent AI products with Python, FastAPI, RAG and React.</text>
+
+  <g transform="translate(48,220)">
+    <rect class="badge" x="0" y="0" width="138" height="40" rx="20"/>
+    <text x="69" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">Python</text>
+    <rect class="badge" x="154" y="0" width="138" height="40" rx="20"/>
+    <text x="223" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">FastAPI</text>
+    <rect class="badge" x="308" y="0" width="138" height="40" rx="20"/>
+    <text x="377" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">React</text>
+    <rect class="badge" x="462" y="0" width="160" height="40" rx="20"/>
+    <text x="542" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">LangChain</text>
+    <rect class="badge" x="638" y="0" width="118" height="40" rx="20"/>
+    <text x="697" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">RAG</text>
+    <rect class="badge" x="772" y="0" width="118" height="40" rx="20"/>
+    <text x="831" y="26" text-anchor="middle" class="sans" font-size="18" fill="#78f18d">MCP</text>
+  </g>
+
+  <circle cx="1016" cy="70" r="5" fill="#16ef3d"/>
+  <text x="1016" y="284" class="mono blue" font-size="14" text-anchor="end">github showcase</text>
+</g>
+
+<!-- PROJECTS -->
+<g transform="translate(55,400)">
+  <rect width="1090" height="470" rx="26" fill="#06140d" stroke="url(#border)" stroke-width="2.2"/>
+  <text x="36" y="50" class="mono mint" font-size="27" font-weight="700">PROJECTS.LIST</text>
+  <text x="250" y="50" class="mono muted" font-size="17">~/projects.sh --all</text>
+  <text x="1035" y="50" class="mono muted" font-size="17" text-anchor="end">2 pinned</text>
+  <line x1="35" y1="72" x2="1055" y2="72" stroke="#16cf38" stroke-width="1.7"/>
+
+  <!-- Royal AI -->
+  <g transform="translate(36,108)">
+    <rect class="card" width="488" height="305" rx="18"/>
+    <rect x="0" y="0" width="488" height="36" rx="18" fill="#07190f"/>
+    <rect x="0" y="18" width="488" height="18" fill="#07190f"/>
+    <circle cx="22" cy="18" r="5" fill="#18db3b"/>
+    <text x="45" y="23" class="mono muted" font-size="13">royal-ai</text>
+    <text x="28" y="86" class="mono mint" font-size="34" font-weight="700">royal-ai _</text>
+    <text x="28" y="125" class="sans white" font-size="20">AI assistant with RAG document Q&amp;A,</text>
+    <text x="28" y="155" class="sans white" font-size="20">PDF/DOCX/TXT support and 3-layer architecture.</text>
+    <rect x="28" y="194" width="128" height="30" rx="15" class="badge"/>
+    <text x="92" y="214" text-anchor="middle" class="sans" font-size="15" fill="#75ee89">open-source</text>
+    <rect x="170" y="194" width="92" height="30" rx="15" class="badge"/>
+    <text x="216" y="214" text-anchor="middle" class="sans" font-size="15" fill="#75ee89">RAG</text>
+    <circle cx="390" cy="166" r="54" fill="none" stroke="#0f70d9" stroke-width="10"/>
+    <path d="M390 112 A54 54 0 1 1 352 205" fill="none" stroke="#7caeff" stroke-width="10"/>
+    <text x="390" y="174" class="mono white" font-size="21" text-anchor="middle">AI</text>
+    <text x="28" y="270" class="mono muted" font-size="15">★ React · Express · FastAPI · Claude</text>
+  </g>
+
+  <!-- NewsPulse -->
+  <g transform="translate(566,108)">
+    <rect class="card" width="488" height="305" rx="18"/>
+    <rect x="0" y="0" width="488" height="36" rx="18" fill="#07190f"/>
+    <rect x="0" y="18" width="488" height="18" fill="#07190f"/>
+    <circle cx="22" cy="18" r="5" fill="#18db3b"/>
+    <text x="45" y="23" class="mono muted" font-size="13">newspulse-ai</text>
+    <text x="28" y="86" class="mono mint" font-size="34" font-weight="700">newspulse-ai _</text>
+    <text x="28" y="125" class="sans white" font-size="20">AI-powered news intelligence platform</text>
+    <text x="28" y="155" class="sans white" font-size="20">for collection, clustering, analysis and briefing.</text>
+    <rect x="28" y="194" width="120" height="30" rx="15" class="badge"/>
+    <text x="88" y="214" text-anchor="middle" class="sans" font-size="15" fill="#75ee89">AI News</text>
+    <rect x="162" y="194" width="122" height="30" rx="15" class="badge"/>
+    <text x="223" y="214" text-anchor="middle" class="sans" font-size="15" fill="#75ee89">LangChain</text>
+    <g transform="translate(358,118)">
+      <circle cx="50" cy="50" r="50" fill="#08251a" stroke="#18c739" stroke-width="2"/>
+      <path d="M50 18 L78 34 L78 66 L50 82 L22 66 L22 34 Z" fill="none" stroke="#77f18c" stroke-width="3"/>
+      <circle cx="50" cy="50" r="10" fill="#19df3d"/>
+    </g>
+    <text x="28" y="270" class="mono muted" font-size="15">★ React · Express · FastAPI · LangChain</text>
+  </g>
+</g>
+</svg>
