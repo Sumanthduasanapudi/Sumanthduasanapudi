@@ -41,7 +41,7 @@ AI-powered news intelligence project using React, Express, FastAPI, LangChain an
 **AI / LLM:** Generative AI · LLMs · RAG · LangChain · Claude · MCP  
 **Backend:** Python · FastAPI · Node.js · Express  
 **Frontend:** React · JavaScript · HTML · CSS  
-**Tools:** Git · GitHub · VS Code
+**Tools:** Git · GitHub · Postman · VS Code
 
 ## 📈 GitHub Activity
 
