@@ -64,7 +64,7 @@ jobs:
 
           cairosvg.svg2png(
               url="/tmp/dark-static.svg",
-              write_to="profile-hero-dark-v3.png",
+              write_to="profile-hero-dark-v4.png",
               output_width=1180,
               output_height=610,
               unsafe=True,
@@ -72,7 +72,7 @@ jobs:
 
           cairosvg.svg2png(
               url="/tmp/light-static.svg",
-              write_to="profile-hero-light-v3.png",
+              write_to="profile-hero-light-v4.png",
               output_width=1180,
               output_height=610,
               unsafe=True,
@@ -82,7 +82,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-hero-dark-v3.png profile-hero-light-v3.png
+          git add profile-hero-dark-v4.png profile-hero-light-v4.png
           if git diff --cached --quiet; then
             echo "No image changes"
           else
