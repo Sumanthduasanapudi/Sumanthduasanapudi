@@ -1,9 +1,9 @@
 # Hi, I'm Sumanth Dusanapudi 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dark-photo.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./light-photo.svg">
-  <img src="./dark-photo.svg" alt="Sumanth Dusanapudi — AI Engineer profile">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark-profile.png">
+  <source media="(prefers-color-scheme: light)" srcset="./light-profile.png">
+  <img src="./dark-profile.png" alt="Sumanth Dusanapudi — AI Engineer profile">
 </picture>
 
 <p align="center">
