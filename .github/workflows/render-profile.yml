@@ -28,6 +28,9 @@ jobs:
       - name: Install renderer
         run: pip install cairosvg
 
+      - name: Download profile photo
+        run: curl -L "https://avatars.githubusercontent.com/u/319428566?v=4" -o /tmp/profile-photo.jpg
+
       - name: Render profile PNGs
         shell: python
         run: |
@@ -37,9 +40,27 @@ jobs:
 
           def prepare(src, tmp):
               s = Path(src).read_text(encoding="utf-8")
-              # Make embedded portrait visible in the static PNG render.
-              s = re.sub(r'(<image[^>]+)opacity="0"', r'\1opacity="1"', s, count=1, flags=re.S)
-              # Remove only the portrait fade-in animation nested inside <image>.
+
+              # Replace the SVG portrait source with a local file so GitHub
+              # doesn't block it and the PNG render remains reliable.
+              s = re.sub(
+                  r'<image\s+href="[^"]+"',
+                  '<image href="file:///tmp/profile-photo.jpg"',
+                  s,
+                  count=1,
+                  flags=re.S,
+              )
+
+              # Ensure the portrait is visible in the static render.
+              s = re.sub(
+                  r'(<image[^>]+)opacity="0"',
+                  r'\1opacity="1"',
+                  s,
+                  count=1,
+                  flags=re.S,
+              )
+
+              # Remove only the fade animation nested inside the portrait image.
               s = re.sub(
                   r'(<image[^>]*>)(\s*<animate\s+attributeName="opacity"[^>]*/>)(\s*</image>)',
                   r'\1\3',
@@ -47,6 +68,7 @@ jobs:
                   count=1,
                   flags=re.S,
               )
+
               Path(tmp).write_text(s, encoding="utf-8")
 
           prepare("dark.svg", "/tmp/dark-static.svg")
@@ -58,6 +80,7 @@ jobs:
               output_width=1180,
               output_height=610,
           )
+
           cairosvg.svg2png(
               url="/tmp/light-static.svg",
               write_to="light-profile.png",
