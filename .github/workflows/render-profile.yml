@@ -41,8 +41,7 @@ jobs:
           def prepare(src, tmp):
               s = Path(src).read_text(encoding="utf-8")
 
-              # Replace the SVG portrait source with a local file so GitHub
-              # doesn't block it and the PNG render remains reliable.
+              # Use local profile photo for reliable rendering.
               s = re.sub(
                   r'<image\s+href="[^"]+"',
                   '<image href="file:///tmp/profile-photo.jpg"',
@@ -51,23 +50,12 @@ jobs:
                   flags=re.S,
               )
 
-              # Ensure the portrait is visible in the static render.
-              s = re.sub(
-                  r'(<image[^>]+)opacity="0"',
-                  r'\1opacity="1"',
-                  s,
-                  count=1,
-                  flags=re.S,
-              )
+              # PNG is static: show every element that was animated in from opacity 0.
+              s = s.replace('opacity="0"', 'opacity="1"')
 
-              # Remove only the fade animation nested inside the portrait image.
-              s = re.sub(
-                  r'(<image[^>]*>)(\s*<animate\s+attributeName="opacity"[^>]*/>)(\s*</image>)',
-                  r'\1\3',
-                  s,
-                  count=1,
-                  flags=re.S,
-              )
+              # Remove all SMIL animations for the static PNG render.
+              s = re.sub(r'<animate(?:Transform|Motion)?\b[^>]*/>', '', s, flags=re.S)
+              s = re.sub(r'<animate(?:Transform|Motion)?\b[^>]*>.*?</animate(?:Transform|Motion)?>', '', s, flags=re.S)
 
               Path(tmp).write_text(s, encoding="utf-8")
 
@@ -79,6 +67,7 @@ jobs:
               write_to="dark-profile.png",
               output_width=1180,
               output_height=610,
+              unsafe=True,
           )
 
           cairosvg.svg2png(
@@ -86,6 +75,7 @@ jobs:
               write_to="light-profile.png",
               output_width=1180,
               output_height=610,
+              unsafe=True,
           )
 
       - name: Commit rendered profile images
@@ -96,6 +86,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No image changes"
           else
-            git commit -m "Render profile hero images"
+            git commit -m "Render complete profile hero images"
             git push
           fi
