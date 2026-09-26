@@ -1,16 +1,23 @@
-<div align="center">
+# Hi, I'm Sumanth Dusanapudi 👋
 
-<img width="100%" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/assets/terminal-profile.svg" alt="Sumanth Dusanapudi terminal profile card" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img src="./dark.svg" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and Full-Stack AI Builder">
+</picture>
 
-<br/>
+<p align="center">
+  <b>AI Engineer · Generative AI · RAG · Full-Stack AI Builder</b>
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=700&lines=Building+Intelligent+AI+Applications;Working+with+RAG+%26+LLM+Workflows;FastAPI+%7C+React+%7C+LangChain;Learning+MCP+%26+Multi-Agent+AI" alt="Typing SVG" />
+<p align="center">
+  🤖 AI / LLMs &nbsp;·&nbsp; 🐍 Python &nbsp;·&nbsp; ⚡ FastAPI &nbsp;·&nbsp; ⚛️ React
+  &nbsp;·&nbsp; 🔗 LangChain &nbsp;·&nbsp; 🧠 RAG &nbsp;·&nbsp; 🔌 MCP
+</p>
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=Sumanthduasanapudi&label=PROFILE%20VIEWS&style=for-the-badge&color=0e75b6" alt="Profile views" />
-
-</div>
+<p align="center">
+  I build end-to-end AI applications, intelligent workflows, APIs and full-stack AI products.
+</p>
 
 ---
 
