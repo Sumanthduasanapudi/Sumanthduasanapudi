@@ -20,7 +20,8 @@
 
 - 🎓 B.Tech in Computer Science and Engineering, graduating in 2026
 - 🤖 Focused on AI Engineering and Generative AI application development
-- 🧠 Building with LLMs, RAG, embeddings, vector databases, and prompt engineering
+- 🧠 Building with LLMs, RAG, embeddings, vector databases, prompt engineering, and MCP concepts
+- 🔌 Familiar with Model Context Protocol (MCP) for connecting AI systems with external tools and data sources
 - ⚙️ Developing AI backends with Python, FastAPI, Node.js, and Express.js
 - 🌐 Integrating React frontends with multi-layer AI services and REST APIs
 - 🔐 Learning production-minded API design, authentication, CORS, and secret management
@@ -71,7 +72,7 @@ LLM-powered meeting workflow that converts **TXT, VTT, and JSON** transcripts in
 ## 🧰 Technical Skills
 
 **Programming:** Python · SQL  
-**AI & Generative AI:** Generative AI · LLMs · Prompt Engineering · RAG · Embeddings · Vector Databases · LangChain · Machine Learning Fundamentals  
+**AI & Generative AI:** Generative AI · LLMs · Prompt Engineering · RAG · Embeddings · Vector Databases · LangChain · Model Context Protocol (MCP) · Machine Learning Fundamentals  
 **AI Tools:** ChromaDB · Ollama · Llama 3.2 · Claude API · LangSmith · Sentence Transformers  
 **Backend & API Security:** FastAPI · Node.js · Express.js · REST APIs · API Gateway · Bearer Token Authentication · CORS · Environment Variables · Secret Management  
 **Frontend:** React.js · JavaScript · HTML5 · CSS3  
