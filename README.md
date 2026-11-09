@@ -1,17 +1,20 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-glow-light.svg">
-    <img src="./assets/hero-glow-dark.svg" width="100%" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and agent workflows">
-  </picture>
+  <a href="https://sumanth-ai-system-profile.vercel.app/" title="Open the interactive portfolio">
+    <picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/suitup-static.png">
+      <img src="./assets/suitup-preview.gif" width="100%" alt="Sumanth Dusanapudi in a red, gold and cyan AI-engineer banner, with an automatic animation changing his business-suit portrait into futuristic armor">
+    </picture>
+  </a>
+  <p><sub>AI-generated suit-up preview · Loops automatically on GitHub · <a href="https://sumanth-ai-system-profile.vercel.app/">Open my portfolio for interactive effects ↗</a></sub></p>
 
   <br>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1200&color=41D7F0&center=true&vCenter=true&width=780&height=42&lines=From+documents+to+grounded+answers.;From+ideas+to+practical+AI+applications.;Python+%C2%B7+FastAPI+%C2%B7+RAG+%C2%B7+Agent+Workflows" alt="From documents to grounded answers. From ideas to practical AI applications.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1200&color=79E5EE&center=true&vCenter=true&width=780&height=42&lines=From+documents+to+grounded+answers.;From+ideas+to+practical+AI+applications.;Python+%C2%B7+FastAPI+%C2%B7+RAG+%C2%B7+Agent+Workflows" alt="From documents to grounded answers. From ideas to practical AI applications.">
 
   <p>
-    <a href="https://sumanth-ai-system-profile.vercel.app/"><img src="https://img.shields.io/badge/Explore_My_Portfolio-0B1427?style=for-the-badge&logo=googlechrome&logoColor=41D7F0" alt="Explore my portfolio"></a>
-    <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><img src="https://img.shields.io/badge/LinkedIn-0B1427?style=for-the-badge&logo=linkedin&logoColor=B598FF" alt="Connect on LinkedIn"></a>
-    <a href="mailto:siddhusumanth2004@gmail.com"><img src="https://img.shields.io/badge/Email_Me-0B1427?style=for-the-badge&logo=gmail&logoColor=41D7F0" alt="Email Sumanth"></a>
+    <a href="https://sumanth-ai-system-profile.vercel.app/"><img src="https://img.shields.io/badge/Explore_My_Portfolio-0B1427?style=for-the-badge&logo=googlechrome&logoColor=79E5EE" alt="Explore my portfolio"></a>
+    <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><img src="https://img.shields.io/badge/LinkedIn-0B1427?style=for-the-badge&logo=linkedin&logoColor=F6BB72" alt="Connect on LinkedIn"></a>
+    <a href="mailto:siddhusumanth2004@gmail.com"><img src="https://img.shields.io/badge/Email_Me-0B1427?style=for-the-badge&logo=gmail&logoColor=79E5EE" alt="Email Sumanth"></a>
   </p>
 
   <sub><a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
@@ -30,7 +33,7 @@ I'm **Sumanth Dusanapudi**, a **2026 Computer Science and Engineering graduate**
 
 My projects include a multi-agent RAG platform, a local interview coach, an AI news briefing app, and a meeting-notes summarizer. I'm seeking an **entry-level AI Engineer / Generative AI Engineer** opportunity.
 
-<img src="./assets/glow-divider.svg" width="100%" alt="Decorative moving light trail">
+<img src="./assets/armor-divider.svg" width="100%" alt="Decorative moving light trail">
 
 ## Selected Projects
 
@@ -106,7 +109,7 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 
 </details>
 
-<img src="./assets/glow-divider.svg" width="100%" alt="Decorative moving light trail">
+<img src="./assets/armor-divider.svg" width="100%" alt="Decorative moving light trail">
 
 ## My Toolkit
 
@@ -119,12 +122,12 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 ### Generative AI & Agent Workflows
 
 <p>
-  <img src="https://img.shields.io/badge/LangChain-142B31?style=for-the-badge&logo=langchain&logoColor=41D7F0" alt="LangChain">
-  <img src="https://img.shields.io/badge/LangGraph-142B31?style=for-the-badge&logo=langgraph&logoColor=41D7F0" alt="LangGraph">
-  <img src="https://img.shields.io/badge/CrewAI-241B3D?style=for-the-badge&logoColor=B598FF" alt="CrewAI">
+  <img src="https://img.shields.io/badge/LangChain-142B31?style=for-the-badge&logo=langchain&logoColor=79E5EE" alt="LangChain">
+  <img src="https://img.shields.io/badge/LangGraph-142B31?style=for-the-badge&logo=langgraph&logoColor=79E5EE" alt="LangGraph">
+  <img src="https://img.shields.io/badge/CrewAI-241B3D?style=for-the-badge&logoColor=F6BB72" alt="CrewAI">
   <img src="https://img.shields.io/badge/MCP-241B3D?style=for-the-badge" alt="Model Context Protocol">
   <img src="https://img.shields.io/badge/Claude_API-30212A?style=for-the-badge&logo=anthropic&logoColor=E8AB96" alt="Claude API">
-  <img src="https://img.shields.io/badge/Ollama-142B31?style=for-the-badge&logo=ollama&logoColor=41D7F0" alt="Ollama">
+  <img src="https://img.shields.io/badge/Ollama-142B31?style=for-the-badge&logo=ollama&logoColor=79E5EE" alt="Ollama">
 </p>
 
 ### Retrieval, Data & Developer Tools
@@ -171,8 +174,8 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 ## GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/Sumanthduasanapudi?tab=followers"><img src="https://img.shields.io/github/followers/Sumanthduasanapudi?label=Followers&style=flat-square&color=41D7F0&labelColor=0B1427" alt="GitHub followers"></a>
-  <a href="https://github.com/Sumanthduasanapudi?tab=repositories"><img src="https://img.shields.io/github/stars/Sumanthduasanapudi?label=Public%20Stars&style=flat-square&color=B598FF&labelColor=0B1427" alt="Stars on public GitHub repositories"></a>
+  <a href="https://github.com/Sumanthduasanapudi?tab=followers"><img src="https://img.shields.io/github/followers/Sumanthduasanapudi?label=Followers&style=flat-square&color=79E5EE&labelColor=0B1427" alt="GitHub followers"></a>
+  <a href="https://github.com/Sumanthduasanapudi?tab=repositories"><img src="https://img.shields.io/github/stars/Sumanthduasanapudi?label=Public%20Stars&style=flat-square&color=F6BB72&labelColor=0B1427" alt="Stars on public GitHub repositories"></a>
 </p>
 
 <picture>
