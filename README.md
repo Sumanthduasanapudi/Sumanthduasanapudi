@@ -9,12 +9,14 @@
 
   <br>
 
+  <p><b>AI Engineer · Generative AI · Agentic AI · RAG</b></p>
+
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1200&color=79E5EE&center=true&vCenter=true&width=780&height=42&lines=From+documents+to+grounded+answers.;From+ideas+to+practical+AI+applications.;Python+%C2%B7+FastAPI+%C2%B7+RAG+%C2%B7+Agent+Workflows" alt="From documents to grounded answers. From ideas to practical AI applications.">
 
   <p>
     <a href="https://sumanth-ai-system-profile.vercel.app/"><img src="https://img.shields.io/badge/Explore_My_Portfolio-0B1427?style=for-the-badge&logo=googlechrome&logoColor=79E5EE" alt="Explore my portfolio"></a>
     <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><img src="https://img.shields.io/badge/LinkedIn-0B1427?style=for-the-badge&logo=linkedin&logoColor=F6BB72" alt="Connect on LinkedIn"></a>
-    <a href="mailto:siddhusumanth2004@gmail.com"><img src="https://img.shields.io/badge/Email_Me-0B1427?style=for-the-badge&logo=gmail&logoColor=79E5EE" alt="Email Sumanth"></a>
+    <a href="mailto:dusanapudisumanth@gmail.com"><img src="https://img.shields.io/badge/Email_Me-0B1427?style=for-the-badge&logo=gmail&logoColor=79E5EE" alt="Email Sumanth"></a>
   </p>
 
   <sub><a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
@@ -29,9 +31,9 @@
   <img src="./assets/about-v2-dark.png" width="100%" alt="Sumanth Dusanapudi: profile photo, AI Engineer from Andhra Pradesh, Vel Tech 2026 CSE graduate, and builder of AgentForge AI, InterviewForge AI, NewsPulse and an AI Meeting Minutes Summarizer">
 </picture>
 
-I'm **Sumanth Dusanapudi**, a **2026 Computer Science and Engineering graduate** from Vel Tech. I build Generative AI applications with **Python, FastAPI, and React**, with a focus on **retrieval-grounded answers, agent workflows, and useful interfaces**.
+I'm **Sumanth Dusanapudi**, a **Computer Science and Engineering graduate (2026)** from Vel Tech, seeking an **entry-level AI Engineer role**.
 
-My projects include a multi-agent RAG platform, a local interview coach, an AI news briefing app, and a meeting-notes summarizer. I'm seeking an **entry-level AI Engineer / Generative AI Engineer** opportunity.
+I've built **four Generative AI applications** using **Python, FastAPI, and React**, covering **Retrieval-Augmented Generation (RAG), multi-agent workflows, local Large Language Models (LLMs), and structured summarization**. My work includes AgentForge AI, InterviewForge AI, NewsPulse, and an AI Meeting Minutes Summarizer.
 
 <img src="./assets/armor-divider.svg" width="100%" alt="Decorative moving light trail">
 
@@ -48,9 +50,9 @@ My projects include a multi-agent RAG platform, a local interview coach, an AI n
 
 A Python, FastAPI, and React platform that uses **LangGraph** to route requests to document retrieval or **MCP tools**, with **CrewAI** agents coordinating research, analysis, and review.
 
-- Built document Q&A and multi-agent workflows in a unified application.
-- Used LangGraph for retrieval and tool-routing flows.
-- Coordinated CrewAI agents for research, analysis, and review tasks.
+- Developed a Python, FastAPI, and React platform for document question answering and multi-agent workflows.
+- Used **LangGraph** to route requests to document retrieval or **MCP tools**.
+- Coordinated **CrewAI** agents for research, analysis, and review.
 
 **Built with:** `Python` `FastAPI` `React` `LangGraph` `CrewAI` `RAG` `MCP`
 
@@ -67,9 +69,10 @@ A Python, FastAPI, and React platform that uses **LangGraph** to route requests 
 
 An interview-preparation app with **document Q&A, mock interviews, and Python study**, using **ChromaDB** and **Llama 3.2 through Ollama**.
 
-- Implemented PDF ingestion, chunking, embeddings, and persistent vector storage.
-- Retrieved the **three most relevant chunks** to ground local model responses.
-- Built adaptive **five-question sessions** with **0–10 scores**, feedback, and hints.
+- Built three learning modes: **document question answering, mock interviews, and Python study**.
+- Implemented PDF ingestion, chunking, embeddings, and **persistent ChromaDB storage**.
+- Retrieved the **top 3 chunks** to ground **Llama 3.2** answers through **Ollama**.
+- Implemented adaptive **5-question practice sessions** with **0–10 scores**, feedback, and hints.
 
 **Built with:** `Python` `FastAPI` `React` `ChromaDB` `Ollama` `Llama 3.2`
 
@@ -86,9 +89,9 @@ An interview-preparation app with **document Q&A, mock interviews, and Python st
 
 A React, Express.js, and FastAPI application that collects RSS articles, removes duplicates, groups related headlines by meaning, and generates briefings with **LangChain and Claude**.
 
-- Built article deduplication and semantic headline grouping.
-- Produced structured briefings with **source attribution**.
-- Added controlled concurrent Claude calls, **Pydantic validation**, and optional **LangSmith tracing**.
+- Deduplicated RSS articles and grouped related headlines by meaning.
+- Generated **source-attributed briefings** with **LangChain and Claude**.
+- Implemented **controlled concurrent Claude API calls**, **Pydantic validation for structured outputs**, and optional **LangSmith tracing** for debugging.
 
 **Built with:** `React` `Express.js` `FastAPI` `LangChain` `Claude API` `LangSmith`
 
@@ -103,7 +106,7 @@ A React, Express.js, and FastAPI application that collects RSS articles, removes
 
 **Turn meeting transcripts into concise notes.**
 
-A FastAPI and Express.js workflow that uses Claude to summarize transcripts in **TXT, VTT, and JSON** formats.
+Integrated **Claude with FastAPI and Express.js** to convert transcripts in **3 formats—TXT, VTT, and JSON—into concise meeting notes**.
 
 **Built with:** `Python` `FastAPI` `Express.js` `Claude API`
 
@@ -137,6 +140,8 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
   <img src="https://img.shields.io/badge/SentenceTransformers-1E2441?style=flat-square" alt="SentenceTransformers">
   <img src="https://img.shields.io/badge/SQL-1E2441?style=flat-square" alt="SQL">
   <img src="https://img.shields.io/badge/LangSmith-1E2441?style=flat-square" alt="LangSmith">
+  <img src="https://img.shields.io/badge/Pydantic-1E2441?style=flat-square" alt="Pydantic">
+  <img src="https://img.shields.io/badge/Llama_3.2-1E2441?style=flat-square" alt="Llama 3.2">
 </p>
 <img src="https://skillicons.dev/icons?i=git,github,postman&theme=dark" alt="Git, GitHub and Postman">
 
@@ -144,14 +149,12 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 
 <br>
 
-| Focus | What I work with |
+| Area | Skills from my CV |
 | :--- | :--- |
-| **Grounded answers** | RAG, embeddings, semantic search, prompt engineering, and ChromaDB |
-| **Agent workflows** | LangGraph, CrewAI, and Model Context Protocol |
-| **Local inference** | Ollama and Llama 3.2 |
-| **Application APIs** | Python, FastAPI, Node.js, Express.js, and REST APIs |
-| **Interfaces** | React |
-| **Validation & debugging** | Pydantic validation, optional LangSmith tracing, Git, and Postman |
+| **Programming / Web** | Python, SQL, React, Node.js, Express.js, and REST APIs |
+| **Generative AI / RAG** | LangChain, embeddings, semantic search, prompt engineering, ChromaDB, and SentenceTransformers |
+| **Agents / LLMs** | LangGraph, CrewAI, Model Context Protocol (MCP), Claude API, Llama 3.2, and Ollama |
+| **Frameworks / Tools** | FastAPI, Pydantic, LangSmith, Git, and Postman |
 
 ---
 
@@ -189,13 +192,13 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 
 ### Let's build something useful.
 
-**Open to entry-level AI Engineer and Generative AI Engineer opportunities.**
+**Seeking an entry-level AI Engineer role.**
 
 <a href="https://sumanth-ai-system-profile.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
 <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/">LinkedIn</a> &nbsp; / &nbsp;
-<a href="mailto:siddhusumanth2004@gmail.com">Email</a> &nbsp; / &nbsp;
+<a href="mailto:dusanapudisumanth@gmail.com">Email</a> &nbsp; / &nbsp;
 <a href="https://github.com/Sumanthduasanapudi">GitHub</a>
 
-<sub>Andhra Pradesh, India · Python · RAG · Agent Workflows</sub>
+<sub>Andhra Pradesh, India · Generative AI · Agentic AI · RAG</sub>
 
 </div>
