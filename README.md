@@ -30,6 +30,38 @@
 
 ## About Me
 
+<table>
+  <tr>
+    <td width="36%" align="center" valign="top">
+      <br>
+      <b>VISUAL.MAP // SUMANTH</b>
+      <br><br>
+      <a href="https://github.com/Sumanthduasanapudi">
+        <img src="https://avatars.githubusercontent.com/u/319428566?v=4" width="340" alt="Sumanth Dusanapudi's GitHub profile picture">
+      </a>
+      <br><br>
+      <b>Sumanth Dusanapudi</b>
+      <br>
+      <sub>AI Engineer · Generative AI · RAG</sub>
+      <br><br>
+      <img src="https://img.shields.io/badge/2026-CSE_Graduate-7C3AED?style=flat-square" alt="2026 Computer Science and Engineering graduate">
+      <br>
+      <img src="https://img.shields.io/badge/Open_to-Entry_Level_AI_Roles-0369A1?style=flat-square" alt="Open to entry-level AI Engineer roles">
+      <br><br>
+      <a href="https://sumanth-ai-system-profile.vercel.app/"><b>Portfolio ↗</b></a>
+      &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><b>LinkedIn ↗</b></a>
+      <br><br>
+    </td>
+    <td width="64%" align="center" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./assets/about-system-light.svg">
+        <img src="./assets/about-system-dark.svg" width="100%" alt="Sumanth's terminal-style profile: AI Engineer, Andhra Pradesh, Vel Tech 2026, entry-level portfolio experience, technical skills, projects and contact links">
+      </picture>
+    </td>
+  </tr>
+</table>
+
 I'm **Sumanth Dusanapudi**, a 2026 Computer Science and Engineering graduate building AI applications with **Python, FastAPI, and React**. My projects bring together document retrieval, local language models, agent workflows, and API integrations.
 
 - **Generative AI:** RAG, embeddings, semantic search, prompt engineering, and source-grounded answers.
