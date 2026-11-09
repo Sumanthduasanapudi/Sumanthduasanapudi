@@ -1,11 +1,8 @@
 <div align="center">
   <a href="https://sumanth-ai-system-profile.vercel.app/" title="Open the interactive portfolio">
-    <picture>
-      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/suitup-static.png">
-      <img src="./assets/suitup-preview.gif" width="100%" alt="Sumanth Dusanapudi in a red, gold and cyan AI-engineer banner, with an automatic animation changing his business-suit portrait into futuristic armor">
-    </picture>
+    <img src="./assets/profile-banner-v3.png" width="100%" alt="Sumanth Dusanapudi — AI Engineer. Building practical AI systems with Python, FastAPI, RAG and agent workflows. Portrait banner in midnight navy, cyan and gold.">
   </a>
-  <p><sub>AI-generated suit-up preview · Loops automatically on GitHub · <a href="https://sumanth-ai-system-profile.vercel.app/">Open my portfolio for interactive effects ↗</a></sub></p>
+  <p><sub>AI-assisted portrait banner · <a href="https://sumanth-ai-system-profile.vercel.app/">Open my portfolio for interactive effects ↗</a></sub></p>
 
   <br>
 
@@ -22,6 +19,18 @@
 
   <sub><a href="#project-evidence">EVIDENCE</a> &nbsp; / &nbsp; <a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
 </div>
+
+<details>
+<summary><b>View the animated suit-up banner</b></summary>
+
+<picture>
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/suitup-static.png">
+      <img src="./assets/suitup-preview.gif" width="100%" alt="Sumanth Dusanapudi in a red, gold and cyan AI-engineer banner, with an automatic animation changing his business-suit portrait into futuristic armor">
+    </picture>
+
+<sub>AI-generated suit-up preview · Loops automatically on GitHub · <a href="https://sumanth-ai-system-profile.vercel.app/">Open the interactive portfolio ↗</a></sub>
+
+</details>
 
 <br>
 
