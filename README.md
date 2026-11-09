@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  Computer Science and Engineering graduate (2026) building end-to-end AI applications across RAG, LLM summarization, news intelligence, and backend APIs.
+  Computer Science and Engineering graduate (2026) building end-to-end AI applications across RAG, multi-agent workflows, MCP tool integration, news intelligence, and backend APIs.
 </p>
 
 ---
@@ -20,14 +20,30 @@
 
 - 🎓 B.Tech in Computer Science and Engineering, graduating in 2026
 - 🤖 Focused on AI Engineering and Generative AI application development
-- 🧠 Building with LLMs, RAG, embeddings, vector databases, prompt engineering, and MCP concepts
-- 🔌 Familiar with Model Context Protocol (MCP) for connecting AI systems with external tools and data sources
+- 🧠 Building with LLMs, RAG, embeddings, vector databases, and prompt engineering
+- 🔌 Integrating approved local tools with Model Context Protocol (MCP)
+- 🤝 Building multi-agent workflows with CrewAI and orchestrating application flows with LangGraph
 - ⚙️ Developing AI backends with Python, FastAPI, Node.js, and Express.js
 - 🌐 Integrating React frontends with multi-layer AI services and REST APIs
 - 🔐 Learning production-minded API design, authentication, CORS, and secret management
 - 🎯 Seeking a fresher **AI Engineer / Generative AI Engineer** opportunity
 
 ## 🌟 Featured Projects
+
+### 🤝 AgentForge AI — Multi-Agent RAG & MCP Workflow Platform
+
+A local-first AI engineering application combining **Claude chat, PDF knowledge retrieval, CrewAI agents, LangGraph workflows, and MCP tools** in a React dashboard.
+
+**Tech:** Python · FastAPI · React · Claude API · CrewAI · LangChain · LangGraph · ChromaDB · Sentence Transformers · MCP
+
+**Highlights:**
+- Integrated PDF ingestion, embeddings, vector retrieval, and source-referenced answers
+- Coordinated Planner, Developer, Tester, and Reviewer agents to generate software artifacts
+- Connected chat, RAG, and CrewAI through predefined LangGraph workflow routes
+- Integrated read-only MCP tools for listing, reading, and searching workspace files
+- Added AI-proposed tool selection with argument validation and human approval before execution
+
+[View AgentForge AI](https://github.com/Sumanthduasanapudi/AgentForge)
 
 ### 🎯 InterviewForge AI — RAG-Powered Interview Preparation Platform
 
@@ -72,7 +88,7 @@ LLM-powered meeting workflow that converts **TXT, VTT, and JSON** transcripts in
 ## 🧰 Technical Skills
 
 **Programming:** Python · SQL  
-**AI & Generative AI:** Generative AI · LLMs · Prompt Engineering · RAG · Embeddings · Vector Databases · LangChain · Model Context Protocol (MCP) · Machine Learning Fundamentals  
+**AI & Generative AI:** Generative AI · LLMs · Prompt Engineering · RAG · Embeddings · Vector Databases · LangChain · LangGraph · CrewAI · Multi-Agent Workflows · Model Context Protocol (MCP) · Machine Learning Fundamentals  
 **AI Tools:** ChromaDB · Ollama · Llama 3.2 · Claude API · LangSmith · Sentence Transformers  
 **Backend & API Security:** FastAPI · Node.js · Express.js · REST APIs · API Gateway · Bearer Token Authentication · CORS · Environment Variables · Secret Management  
 **Frontend:** React.js · JavaScript · HTML5 · CSS3  
