@@ -20,21 +20,43 @@
     <a href="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Sumanth_Dusanapudi_AI_Engineer_ATS.pdf"><img src="https://img.shields.io/badge/ATS_Resume-PDF-F6BB72?style=for-the-badge&logo=readthedocs&logoColor=0B1427" alt="Download ATS résumé PDF"></a>
   </p>
 
-  <sub><a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
+  <sub><a href="#project-evidence">EVIDENCE</a> &nbsp; / &nbsp; <a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
 </div>
 
 <br>
 
+## Project Evidence
+
+**Entry-level AI Engineer · 2026 CSE graduate · Python, FastAPI, React, RAG, LangGraph, CrewAI and MCP.**
+
+| Project | Start here | Demonstrated in this capture |
+| :--- | :--- | :--- |
+| **AgentForge AI** | [Recording & run instructions](./docs/demos/agentforge.md) · [Source](https://github.com/Sumanthduasanapudi/AgentForge) | Real MCP discovery, file reading and search |
+| **InterviewForge AI** | [Recording & run instructions](./docs/demos/interviewforge.md) · [Retrieval result](./docs/demos/interviewforge-retrieval.json) · [Source](https://github.com/Sumanthduasanapudi/InterviewForge-AI) | PDF upload, 2 indexed chunks, source text and metadata |
+| **NewsPulse** | [Screenshot](./assets/projects/newspulse-live-feed.png) · [Source](https://github.com/Sumanthduasanapudi/newspulse-ai) | Live RSS collection in the actual interface |
+| **Meeting Minutes** | [Open demo](https://ai-meeting-summary-dun.vercel.app/) | Transcript-upload interface loads; summary generation requires its configured access |
+
+[**Download ATS résumé (PDF)**](https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Sumanth_Dusanapudi_AI_Engineer_ATS.pdf) · [Portfolio](https://sumanth-ai-system-profile.vercel.app/) · [Email](mailto:dusanapudisumanth@gmail.com)
+
+<sub>These recordings verify the listed local flows. Complete model-generated answers are not yet demonstrated. [Capture scope](./docs/demos/evidence.md) · [Full-answer verification steps](./docs/demos/next-verification.md).</sub>
+
 ## About Me
+
+
+
+I'm **Sumanth Dusanapudi**, a **Computer Science and Engineering graduate (2026)** from Vel Tech, seeking an **entry-level AI Engineer role**.
+
+I've built **four Generative AI applications** using **Python, FastAPI, and React**, covering **Retrieval-Augmented Generation (RAG), multi-agent workflows, local Large Language Models (LLMs), and structured summarization**. My work includes AgentForge AI, InterviewForge AI, NewsPulse, and an AI Meeting Minutes Summarizer.
+
+<details>
+<summary><b>View my visual profile</b></summary>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./assets/about-v2-light.png">
   <img src="./assets/about-v2-dark.png" width="100%" alt="Sumanth Dusanapudi: profile photo, AI Engineer from Andhra Pradesh, Vel Tech 2026 CSE graduate, and builder of AgentForge AI, InterviewForge AI, NewsPulse and an AI Meeting Minutes Summarizer">
 </picture>
 
-I'm **Sumanth Dusanapudi**, a **Computer Science and Engineering graduate (2026)** from Vel Tech, seeking an **entry-level AI Engineer role**.
-
-I've built **four Generative AI applications** using **Python, FastAPI, and React**, covering **Retrieval-Augmented Generation (RAG), multi-agent workflows, local Large Language Models (LLMs), and structured summarization**. My work includes AgentForge AI, InterviewForge AI, NewsPulse, and an AI Meeting Minutes Summarizer.
+</details>
 
 <img src="./assets/armor-divider.svg" width="100%" alt="Decorative moving light trail">
 
@@ -66,11 +88,8 @@ A React and FastAPI workspace that uses **LangGraph** to route requests to docum
 
 <br>
 
-**Your documents. Your practice sessions. A local language model.**
-
 An interview-preparation app with **document Q&A, mock interviews, and Python study**, using **ChromaDB** and **Llama 3.2 through Ollama**.
 
-- Built three learning modes: **document question answering, mock interviews, and Python study**.
 - Implemented PDF ingestion, chunking, embeddings, and **persistent ChromaDB storage**.
 - Retrieved the **top 3 chunks** to ground **Llama 3.2** answers through **Ollama**.
 - Implemented adaptive **5-question practice sessions** with **0–10 scores**, feedback, and hints.
@@ -90,12 +109,8 @@ An interview-preparation app with **document Q&A, mock interviews, and Python st
 
 <br>
 
-**Related headlines become structured briefings with sources.**
-
 A React, Express.js, and FastAPI application that collects RSS articles, removes duplicates, groups related headlines by meaning, and generates briefings with **LangChain and Claude**.
 
-- Deduplicated RSS articles and grouped related headlines by meaning.
-- Generated **source-attributed briefings** with **LangChain and Claude**.
 - Implemented **controlled concurrent Claude API calls**, **Pydantic validation for structured outputs**, and optional **LangSmith tracing** for debugging.
 
 **Built with:** `React` `Express.js` `FastAPI` `LangChain` `Claude API` `LangSmith`
@@ -164,7 +179,7 @@ Integrated **Claude with FastAPI and Express.js** to convert transcripts in **3 
 
 <br>
 
-| Area | Skills from my CV |
+| Area | Skills |
 | :--- | :--- |
 | **Programming / Web** | Python, SQL, React, Node.js, Express.js, and REST APIs |
 | **Generative AI / RAG** | LangChain, embeddings, semantic search, prompt engineering, ChromaDB, and SentenceTransformers |
