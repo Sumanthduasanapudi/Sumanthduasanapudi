@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-v2-light.svg">
-    <img src="./assets/hero-v2-dark.svg" width="100%" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and agent workflows">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-glow-light.svg">
+    <img src="./assets/hero-glow-dark.svg" width="100%" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and agent workflows">
   </picture>
 
   <br>
@@ -30,7 +30,7 @@ I'm **Sumanth Dusanapudi**, a **2026 Computer Science and Engineering graduate**
 
 My projects include a multi-agent RAG platform, a local interview coach, an AI news briefing app, and a meeting-notes summarizer. I'm seeking an **entry-level AI Engineer / Generative AI Engineer** opportunity.
 
----
+<img src="./assets/glow-divider.svg" width="100%" alt="Decorative moving light trail">
 
 ## Selected Projects
 
@@ -106,7 +106,7 @@ A FastAPI and Express.js workflow that uses Claude to summarize transcripts in *
 
 </details>
 
----
+<img src="./assets/glow-divider.svg" width="100%" alt="Decorative moving light trail">
 
 ## My Toolkit
 
