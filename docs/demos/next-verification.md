@@ -1,24 +1,16 @@
 # Next: complete input-to-answer demonstrations
 
-The existing recordings show actual MCP/file operations and document ingestion. These are the remaining steps for demonstrating model output. They have not been completed in the published evidence.
+InterviewForge now has a completed real model-answer demonstration. AgentForge retains its actual MCP/file recording while Claude generation awaits the backend credential.
 
-## InterviewForge: local, no provider API key
+## InterviewForge: completed PDF-to-answer flow
 
-1. Install Ollama, start it with `ollama serve`, and run `ollama pull llama3.2:3b`.
-2. Start the original InterviewForge API and frontend using the [recorded-demo instructions](./interviewforge.md).
-3. Upload the supplied [public project notes](./Public_Project_Notes.pdf).
-4. Ask: **Which database and local language model does InterviewForge use?**
-5. Show the answer and expand the returned sources. Compare its claims with the uploaded text.
+The original UI now demonstrates real Llama 3.2 generation with expanded PDF sources. A separate unsupported salary question was correctly declined. See the [recording and reproduction notes](./interviewforge.md) and [actual response](./interviewforge-live-result.json).
 
-To capture a real response as JSON, run from the profile checkout:
+Next, verify a complete five-question mock interview, scoring and adaptive follow-ups. Those flows remain unverified.
 
-```bash
-python docs/demos/check_live_flow.py interviewforge --output interviewforge-live-result.json
-```
+## AgentForge: Claude response pending secret configuration
 
-The check requires non-empty model output and returned source passages. It does not certify factual correctness; a person must review the answer.
-
-## AgentForge: actual Claude response
+The owner chose to keep Claude. Configure `ANTHROPIC_API_KEY` in backend secret settings; do not paste it into chat or commit it. No local-provider substitution was made.
 
 1. Run the full backend with your own working Claude configuration. The MCP-only runner does not generate AI answers.
 2. Keep the key in the backend environment. Never place it in the browser or repository.

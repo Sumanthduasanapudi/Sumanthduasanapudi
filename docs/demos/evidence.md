@@ -5,7 +5,7 @@ These screenshots are actual browser captures of the project interfaces, not gen
 | Project | Captured evidence | Important limit |
 | --- | --- | --- |
 | AgentForge | Original frontend and real read-only MCP server: discovery, file reading and search | A minimal MCP-only FastAPI runner was used; model-based answers were not tested |
-| InterviewForge | Original frontend/API: sample PDF upload, persistent ChromaDB indexing and practice setup screens | Ollama was not running; the model label is configuration only |
+| InterviewForge | Original UI/API: PDF upload, ChromaDB retrieval, actual Llama 3.2 answer and expanded sources | Two reviewed question cases; mock-interview scoring and adaptive follow-ups remain unverified |
 | NewsPulse | Original frontend and Express gateway with the repository's real RSS collector | A read-only FastAPI runner exposed collection and the repository's saved example stories; Claude briefings were not generated |
 | Meeting Minutes | User-provided public demo at https://ai-meeting-summary-dun.vercel.app/ rendered its upload/agenda/attendee/PIN interface | Page loading was checked; no transcript was submitted and no protected summarization call was tested |
 

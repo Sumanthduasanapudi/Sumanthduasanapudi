@@ -1,0 +1,34 @@
+{
+  "captured_at_utc": "2026-11-09T21:43:12.114Z",
+  "question": "Which database and local language model does InterviewForge AI use? Answer briefly using the uploaded notes.",
+  "response": {
+    "answer": "InterviewForge AI uses ChromaDB as its vector database and serves its local large language model, Llama 3.2, through Ollama.",
+    "sources": [
+      {
+        "source": "InterviewForge_RAG_Demo.pdf",
+        "chunk": 0,
+        "preview": "InterviewForge AI — Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+        "distance": 0.5650618672370911
+      },
+      {
+        "source": "Public_Project_Notes.pdf",
+        "chunk": 0,
+        "preview": "Public Project Notes — Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+        "distance": 0.8697316646575928
+      },
+      {
+        "source": "Public_Project_Notes.pdf",
+        "chunk": 1,
+        "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+        "distance": 1.471387267112732
+      }
+    ]
+  },
+  "page_errors": [],
+  "scope": "Original React frontend -> original FastAPI /ask -> ChromaDB retrieval -> local Ollama llama3.2:3b -> answer and sources",
+  "known_fact_check": {
+    "database": "ChromaDB",
+    "model": "Llama 3.2",
+    "passed": true
+  }
+}
