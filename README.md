@@ -1,133 +1,244 @@
-# Hi, I'm Sumanth Dusanapudi 👋
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-header-light.svg">
+    <img src="./assets/profile-header-dark.svg" width="100%" alt="Sumanth Dusanapudi — AI Engineer, Generative AI, RAG and agent workflows">
+  </picture>
+
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&height=48&lines=Building+practical+Generative+AI+applications;RAG+%C2%B7+LangGraph+%C2%B7+CrewAI+%C2%B7+MCP;Python+%2B+FastAPI+backends+%C2%B7+React+interfaces;Open+to+entry-level+AI+Engineer+opportunities" alt="Building Generative AI applications with Python, FastAPI, RAG and agent workflows"></a>
+
+  <p>
+    <img src="https://img.shields.io/badge/B.Tech-Computer_Science_%26_Engineering-6D28D9?style=flat-square" alt="B.Tech in Computer Science and Engineering">
+    <img src="https://img.shields.io/badge/Vel_Tech-2026_Graduate-4C1D95?style=flat-square" alt="Vel Tech, 2026 graduate">
+    <img src="https://img.shields.io/badge/Location-India-0369A1?style=flat-square" alt="Based in India">
+    <img src="https://img.shields.io/badge/Open_to-Entry_Level_AI_Roles-166534?style=flat-square" alt="Open to entry-level AI roles">
+  </p>
+
+  <p>
+    <a href="https://sumanth-ai-system-profile.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="Explore my portfolio"></a>
+    <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=A78BFA" alt="Connect on LinkedIn"></a>
+    <a href="https://github.com/Sumanthduasanapudi?tab=repositories"><img src="https://img.shields.io/badge/My_Projects-0D1117?style=for-the-badge&logo=github&logoColor=38BDF8" alt="Browse my repositories"></a>
+  </p>
+
+  <a href="#about-me">About</a> &nbsp;·&nbsp;
+  <a href="#tech-stack">Tech stack</a> &nbsp;·&nbsp;
+  <a href="#featured-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#education--certifications">Education</a> &nbsp;·&nbsp;
+  <a href="#github-activity">Activity</a>
+</div>
+
+---
+
+## About Me
+
+I'm **Sumanth Dusanapudi**, a 2026 Computer Science and Engineering graduate building AI applications with **Python, FastAPI, and React**. My projects bring together document retrieval, local language models, agent workflows, and API integrations.
+
+- **Generative AI:** RAG, embeddings, semantic search, prompt engineering, and source-grounded answers.
+- **Agent workflows:** LangGraph orchestration, CrewAI collaboration, and MCP tool integration.
+- **Full-stack development:** Python and FastAPI services connected to React, Node.js, and Express.js.
+- **What I'm looking for:** Entry-level **AI Engineer / Generative AI Engineer** roles and opportunities to build useful AI tools.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-hero-dark-v4.png">
-  <source media="(prefers-color-scheme: light)" srcset="./profile-hero-light-v4.png">
-  <img src="./profile-hero-dark-v4.png" alt="Sumanth Dusanapudi — AI Engineer profile">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-map-light.svg">
+  <img src="./assets/profile-map-dark.svg" width="100%" alt="My AI application workflow: React interfaces connect to FastAPI, document retrieval with ChromaDB, agent orchestration with LangGraph and CrewAI, and MCP tools">
 </picture>
 
-<p align="center">
-  <b>AI Engineer · Generative AI · RAG · Python & Backend APIs</b>
+---
+
+## Tech Stack
+
+<div align="center">
+
+### Languages & Application Development
+
+<img src="https://skillicons.dev/icons?i=python,js,react,fastapi,nodejs,express&theme=dark" alt="Python, JavaScript, React, FastAPI, Node.js and Express.js">
+
+### Generative AI & Agent Workflows
+
+<p>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain">
+  <img src="https://img.shields.io/badge/LangGraph-182C25?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph">
+  <img src="https://img.shields.io/badge/CrewAI-7C3AED?style=for-the-badge" alt="CrewAI">
+  <img src="https://img.shields.io/badge/MCP-0F172A?style=for-the-badge" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API">
+  <img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
 </p>
 
-<p align="center">
-  Computer Science and Engineering graduate (2026) building end-to-end AI applications across RAG, multi-agent workflows, MCP tool integration, news intelligence, and backend APIs.
-</p>
+### Retrieval, Data & Developer Tools
 
-<p align="center">
-  <a href="https://sumanth-ai-system-profile.vercel.app/"><b>🌐 Explore My Portfolio</b></a>
+<p>
+  <img src="https://img.shields.io/badge/ChromaDB-4338CA?style=for-the-badge" alt="ChromaDB">
+  <img src="https://img.shields.io/badge/SentenceTransformers-0369A1?style=for-the-badge" alt="SentenceTransformers">
+  <img src="https://img.shields.io/badge/SQL-334155?style=for-the-badge" alt="SQL">
+  <img src="https://img.shields.io/badge/LangSmith-166534?style=for-the-badge" alt="LangSmith">
 </p>
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" alt="Git, GitHub, Postman and Visual Studio Code">
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## What I Build
 
-- 🎓 B.Tech in Computer Science and Engineering, graduating in 2026
-- 🤖 Focused on AI Engineering and Generative AI application development
-- 🧠 Building with LLMs, RAG, embeddings, vector databases, and prompt engineering
-- 🔌 Integrating approved local tools with Model Context Protocol (MCP)
-- 🤝 Building multi-agent workflows with CrewAI and orchestrating application flows with LangGraph
-- ⚙️ Developing AI backends with Python, FastAPI, Node.js, and Express.js
-- 🌐 Integrating React frontends with multi-layer AI services and REST APIs
-- 🔐 Learning production-minded API design, authentication, CORS, and secret management
-- 🎯 Seeking a fresher **AI Engineer / Generative AI Engineer** opportunity
-
-## 🌟 Featured Projects
-
-### 🤝 AgentForge AI — Multi-Agent RAG & MCP Workflow Platform
-
-A local-first AI engineering application combining **Claude chat, PDF knowledge retrieval, CrewAI agents, LangGraph workflows, and MCP tools** in a React dashboard.
-
-**Tech:** Python · FastAPI · React · Claude API · CrewAI · LangChain · LangGraph · ChromaDB · Sentence Transformers · MCP
-
-**Highlights:**
-- Integrated PDF ingestion, embeddings, vector retrieval, and source-referenced answers
-- Coordinated Planner, Developer, Tester, and Reviewer agents to generate software artifacts
-- Connected chat, RAG, and CrewAI through predefined LangGraph workflow routes
-- Integrated read-only MCP tools for listing, reading, and searching workspace files
-- Added AI-proposed tool selection with argument validation and human approval before execution
-
-[View AgentForge AI](https://github.com/Sumanthduasanapudi/AgentForge)
-
-### 🎯 InterviewForge AI — RAG-Powered Interview Preparation Platform
-
-A fully local RAG application for technical interview preparation with **Knowledge Q&A, Mock Interview, and Python Study** modes.
-
-**Tech:** Python · FastAPI · React · ChromaDB · Ollama · Llama 3.2 · PyPDF · RAG
-
-**Highlights:**
-- Built an end-to-end PDF ingestion, chunking, embedding, vector storage, and retrieval pipeline
-- Implemented persistent ChromaDB storage and top-3 semantic retrieval
-- Generated source-grounded answers locally using Llama 3.2 through Ollama
-- Built adaptive 5-question interview and study sessions with scoring, feedback, hints, and improved answers
-
-[View InterviewForge AI](https://github.com/Sumanthduasanapudi/InterviewForge-AI)
-
-### 📰 NewsPulse — AI-Powered News Intelligence Platform
-
-A 3-layer AI news application using **React → Express.js → FastAPI → Claude** for collecting, grouping, analyzing, and briefing news stories.
-
-**Tech:** React · Node.js · Express.js · Python · FastAPI · LangChain · LangSmith · Claude API · RSS · Sentence Transformers
-
-**Highlights:**
-- Built RSS ingestion with article deduplication and semantic headline clustering
-- Added multi-source attribution and structured AI-generated news briefings
-- Replaced sequential LLM summarization with controlled concurrent Claude calls
-- Added Pydantic-validated structured outputs and optional LangSmith tracing for observability and debugging
-- Kept Claude credentials server-side with environment-based secret handling
-
-[View NewsPulse](https://github.com/Sumanthduasanapudi/newspulse-ai)
-
-### 📝 AI Meeting Minutes Summarizer
-
-LLM-powered meeting workflow that converts **TXT, VTT, and JSON** transcripts into concise meeting notes.
-
-**Tech:** Python · FastAPI · Node.js · Express.js · Axios · Claude API
-
-**Highlights:**
-- Supports multiple transcript formats
-- Connects Python/FastAPI and Node.js/Express.js backend components
-- Uses Claude API for AI-assisted transcript summarization
-
-## 🧰 Technical Skills
-
-**Programming:** Python · SQL  
-**AI & Generative AI:** Generative AI · LLMs · Prompt Engineering · RAG · Embeddings · Vector Databases · LangChain · LangGraph · CrewAI · Multi-Agent Workflows · Model Context Protocol (MCP) · Machine Learning Fundamentals  
-**AI Tools:** ChromaDB · Ollama · Llama 3.2 · Claude API · LangSmith · Sentence Transformers  
-**Backend & API Security:** FastAPI · Node.js · Express.js · REST APIs · API Gateway · Bearer Token Authentication · CORS · Environment Variables · Secret Management  
-**Frontend:** React.js · JavaScript · HTML5 · CSS3  
-**Databases:** MySQL · Oracle  
-**Tools:** Git · GitHub · Visual Studio Code · Postman  
-**Core Concepts:** OOP · DBMS · API Integration · Data Structures Fundamentals · Problem-Solving
-
-## 🎓 Education
-
-**B.Tech — Computer Science and Engineering**  
-Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology · 2026 · GPA: 7.0/10
-
-## 📜 Certifications
-
-- Introduction to LangChain — LangChain Academy (2026)
-- Databricks Accredited Generative AI Fundamentals — Databricks Academy (2026)
-- Introduction to Model Context Protocol — Anthropic
-- Introduction to LangGraph — Python (2026)
-
-## 📈 GitHub Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg">
-  </picture>
-</p>
-
-## 🔗 Connect
-
-- Portfolio: [Sumanth — AI Engineering Portfolio](https://sumanth-ai-system-profile.vercel.app/)
-- LinkedIn: [Dusanapudi Sumanth](https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/)
-- GitHub: [@Sumanthduasanapudi](https://github.com/Sumanthduasanapudi)
+| Area | Practical experience |
+| :--- | :--- |
+| **RAG & document Q&A** | PDF ingestion, chunking, embeddings, persistent ChromaDB storage, and semantic retrieval |
+| **Agent orchestration** | LangGraph routing, CrewAI workflows, and human approval for AI-proposed tool actions |
+| **Local AI applications** | Ollama and Llama 3.2 for document-grounded answers and interview practice |
+| **AI-powered APIs** | FastAPI backends, React interfaces, and Node.js / Express.js API layers |
+| **News intelligence** | RSS ingestion, article deduplication, semantic grouping, and structured briefings |
+| **Validation & tracing** | Pydantic output validation and optional LangSmith tracing |
 
 ---
 
-<p align="center"><b>Building practical AI systems · Learning continuously · Growing as an AI Engineer</b></p>
+## Featured Projects
+
+<details open>
+<summary><b>01 · AgentForge AI — Multi-Agent RAG & MCP Platform</b></summary>
+
+<br>
+
+A local-first developer dashboard that brings **Claude chat, PDF retrieval, agent collaboration, and MCP tools** into one application.
+
+```text
+React Dashboard → FastAPI → LangGraph Routing
+                              ├─ Document Retrieval → ChromaDB
+                              ├─ CrewAI → Plan · Develop · Test · Review
+                              └─ Human Approval → Read-only MCP Tools
+```
+
+| | |
+| :--- | :--- |
+| **Stack** | Python · FastAPI · React · Claude API · LangChain · LangGraph · CrewAI · ChromaDB · MCP |
+| **Document workflow** | PDF ingestion, embeddings, retrieval, and source-referenced answers |
+| **Agent workflow** | Planner, Developer, Tester, and Reviewer agents coordinate software-artifact generation |
+| **Tool workflow** | AI-proposed tool selection with argument validation and explicit human approval |
+
+[**Explore source & architecture →**](https://github.com/Sumanthduasanapudi/AgentForge)
+
+</details>
+
+<details>
+<summary><b>02 · InterviewForge AI — Local RAG Interview Coach</b></summary>
+
+<br>
+
+An interview-preparation app with **document Q&A, mock interviews, and Python study**, running locally with Ollama.
+
+```text
+PDFs → Chunking → Embeddings → ChromaDB
+                                  ↓
+Question → Relevant Context → Ollama / Llama 3.2 → Answer & Feedback
+```
+
+| | |
+| :--- | :--- |
+| **Stack** | Python · FastAPI · React · ChromaDB · Ollama · Llama 3.2 · PyPDF |
+| **Knowledge vault** | Persistent document storage and top-3 semantic retrieval |
+| **Practice sessions** | Adaptive five-question sessions with scores, feedback, and hints |
+| **Local inference** | Answers generated with Ollama rather than a hosted LLM API |
+
+[**Explore source & architecture →**](https://github.com/Sumanthduasanapudi/InterviewForge-AI)
+
+</details>
+
+<details>
+<summary><b>03 · NewsPulse AI — News Intelligence & Briefings</b></summary>
+
+<br>
+
+A full-stack app that collects RSS stories, groups related headlines, and produces **structured AI briefings with source attribution**.
+
+```text
+RSS Sources → Collection & Deduplication → Semantic Story Groups
+                                                   ↓
+React ← Express.js API Layer ← FastAPI + Claude Briefings
+```
+
+| | |
+| :--- | :--- |
+| **Stack** | React · Node.js · Express.js · Python · FastAPI · Claude · LangChain · SentenceTransformers |
+| **Ingestion** | RSS collection, article deduplication, and semantic headline grouping |
+| **AI layer** | Controlled concurrent Claude calls and structured news briefings |
+| **Debugging** | Pydantic validation and optional LangSmith tracing |
+
+[**Explore source & architecture →**](https://github.com/Sumanthduasanapudi/newspulse-ai)
+
+</details>
+
+<details>
+<summary><b>04 · AI Meeting Minutes Summarizer</b></summary>
+
+<br>
+
+A transcript-processing workflow that turns **TXT, VTT, and JSON** transcripts into concise meeting notes using Claude.
+
+**Stack:** Python · FastAPI · Node.js · Express.js · Claude API
+
+- Supports several transcript formats.
+- Connects Python and Node.js backend components.
+- Produces AI-assisted meeting summaries.
+
+</details>
+
+---
+
+## Education & Certifications
+
+**B.Tech · Computer Science and Engineering**  
+Vel Tech · Class of 2026 · GPA: **7.0 / 10**
+
+**Diploma · Mechanical Engineering**  
+S.M.V.M. Polytechnic, Tanuku · 2023
+
+- **Introduction to LangChain** — LangChain Academy
+- **Generative AI Fundamentals** — Databricks
+- **Introduction to Model Context Protocol** — Anthropic
+- **Introduction to LangGraph — Python**
+
+---
+
+## Current Focus
+
+```yaml
+building:
+  - Retrieval-grounded AI applications
+  - LangGraph and CrewAI workflows with MCP tools
+  - Python APIs with practical React interfaces
+
+developing:
+  - Clearer source attribution and structured outputs
+  - Reliable tool validation and human approval flows
+  - Better debugging with LangSmith tracing
+
+open_to:
+  - Entry-level AI Engineer roles
+  - Generative AI Engineer opportunities
+  - RAG and agent-workflow collaborations
+```
+
+---
+
+## GitHub Activity
+
+<p align="center">
+  <a href="https://github.com/Sumanthduasanapudi?tab=followers"><img src="https://img.shields.io/github/followers/Sumanthduasanapudi?label=Followers&style=flat-square&color=38BDF8" alt="GitHub followers"></a>
+  <a href="https://github.com/Sumanthduasanapudi?tab=repositories"><img src="https://img.shields.io/github/stars/Sumanthduasanapudi?label=Public%20Stars&style=flat-square&color=A78BFA" alt="Stars on public GitHub repositories"></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake.svg">
+  <img src="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/gh-pages/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated snake following my GitHub contribution activity">
+</picture>
+
+---
+
+## Let's Connect
+
+<div align="center">
+  <p>Interested in practical AI applications, RAG, or agent workflows? I'd be happy to connect.</p>
+  <a href="https://sumanth-ai-system-profile.vercel.app/"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/Sumanthduasanapudi"><b>GitHub</b></a>
+  <br><br>
+  <sub>Building useful AI applications, one project at a time.</sub>
+</div>

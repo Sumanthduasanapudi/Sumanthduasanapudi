@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Sumanth Dusanapudi — AI Engineer</title><desc id="desc">Generative AI, RAG and agent workflows. Python, FastAPI, React. 2026 CSE graduate, India.</desc>
+<defs><linearGradient id="accent" x1="0" x2="1"><stop stop-color="#0369A1"/><stop offset="1" stop-color="#7C3AED"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#D2DDF4" stroke-width=".5"/></pattern></defs>
+<rect width="1200" height="350" rx="18" fill="#F5F8FF"/><rect width="1200" height="350" rx="18" fill="url(#grid)" opacity=".42"/><rect x="1" y="1" width="1198" height="348" rx="18" fill="none" stroke="#D2DDF4"/>
+<rect x="42" y="39" width="182" height="27" rx="13" fill="#EAF0FE" stroke="#D2DDF4"/><circle cx="58" cy="52" r="3.5" fill="#0369A1"/><text x="70" y="57" fill="#0369A1" font-family="monospace" font-size="11" letter-spacing="1.1">AI ENGINEER / INDIA</text>
+<text x="42" y="133" fill="#0F2145" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="700" letter-spacing="-1.6">Sumanth Dusanapudi<tspan fill="#0369A1">.</tspan></text>
+<text x="44" y="175" fill="#4D668C" font-family="Arial,Helvetica,sans-serif" font-size="19">Generative AI · RAG · Agent Workflows</text><rect x="44" y="199" width="70" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="44" y="235" fill="#0F2145" font-family="monospace" font-size="13">Building practical AI applications.</text>
+<text x="44" y="275" fill="#4D668C" font-family="monospace" font-size="11">PYTHON / FASTAPI / REACT / LANGGRAPH / CREWAI / MCP</text>
+<text x="44" y="317" fill="#0369A1" font-family="monospace" font-size="10" letter-spacing="1.5">2026 CSE GRADUATE · OPEN TO ENTRY-LEVEL OPPORTUNITIES</text>
+<g transform="translate(985 160)"><circle r="105" fill="#EAF0FE" stroke="#D2DDF4"/><ellipse rx="120" ry="48" fill="none" stroke="#0369A1" opacity=".55" transform="rotate(-32)"/><ellipse rx="120" ry="48" fill="none" stroke="#7C3AED" opacity=".55" transform="rotate(32)"/><circle r="61" fill="#F5F8FF" stroke="#D2DDF4"/><circle r="44" fill="none" stroke="url(#accent)" stroke-width="2"/><text y="9" text-anchor="middle" fill="#0F2145" font-family="monospace" font-size="28">AI</text><circle cx="-102" cy="42" r="6" fill="#0369A1"/><circle cx="102" cy="42" r="6" fill="#7C3AED"/><circle cx="0" cy="-105" r="4" fill="#0369A1"/></g>
+<text x="985" y="304" text-anchor="middle" fill="#4D668C" font-family="monospace" font-size="10" letter-spacing="2">RETRIEVE · REASON · BUILD</text>
+</svg>
