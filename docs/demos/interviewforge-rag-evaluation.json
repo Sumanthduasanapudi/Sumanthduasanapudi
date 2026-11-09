@@ -1,0 +1,315 @@
+{
+  "runtime": {
+    "model": "llama3.2:3b",
+    "quantization": "Q4_K_M",
+    "context_tokens": 4096,
+    "ollama_version": "0.40.15",
+    "hardware": "CPU only; 3 vCPUs, Intel Xeon Platinum 8573C; 9.7 GiB host RAM",
+    "project_commit": "f99f70dc73799937cb3e6173cbe73cd8f3e34273"
+  },
+  "started_at_utc": "2026-11-09T22:00:23.135644+00:00",
+  "method": "Eight fixed questions, one run each, serial requests, original /ask endpoint, time.perf_counter end-to-end HTTP latency; source retrieval included. Model already warm after mock interview.",
+  "corpus": "Two public PDFs, three total chunks; all six answerable questions target InterviewForge_RAG_Demo.pdf chunk 0. Top-3 recall is trivial for this corpus, so only focused-source rank and top-1 hit are reported.",
+  "cases": [
+    {
+      "id": "database",
+      "question": "Which vector database does InterviewForge AI use? Answer in one sentence.",
+      "required": [
+        "chromadb"
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "InterviewForge AI uses ChromaDB as its vector database.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 0.6183162927627563
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 0.9978805780410767
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.664975643157959
+          }
+        ]
+      },
+      "elapsed_seconds": 22.85,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "model",
+      "question": "Which local language model and serving tool does InterviewForge AI use? Answer briefly.",
+      "required": [
+        "llama",
+        "3.2",
+        "ollama"
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "InterviewForge AI uses Llama 3.2 as its local large language model, and it is served through Ollama.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 0.6258881092071533
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 0.7772250771522522
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.368390440940857
+          }
+        ]
+      },
+      "elapsed_seconds": 7.432,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "backend",
+      "question": "What backend language and framework does InterviewForge AI use? Answer briefly.",
+      "required": [
+        "python",
+        "fastapi"
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "InterviewForge AI uses Python with FastAPI as its backend framework.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 0.5171598196029663
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 0.8551092147827148
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.5305489301681519
+          }
+        ]
+      },
+      "elapsed_seconds": 4.877,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "retrieval",
+      "question": "What is the maximum number of source chunks retrieved for each InterviewForge question? Answer briefly.",
+      "required_any": [
+        [
+          "three",
+          "3"
+        ]
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "For each InterviewForge question, up to three relevant source chunks are retrieved.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 0.9394433498382568
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 1.107804536819458
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.732887864112854
+          }
+        ]
+      },
+      "elapsed_seconds": 5.388,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "session",
+      "question": "How many questions are in an InterviewForge practice session? Answer briefly.",
+      "required_any": [
+        [
+          "five",
+          "5"
+        ]
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "In an InterviewForge practice session, there are 5 questions.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 1.0551788806915283
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 1.333527684211731
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.7982609272003174
+          }
+        ]
+      },
+      "elapsed_seconds": 5.1,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "scores",
+      "question": "What score range do InterviewForge practice sessions use? Answer briefly.",
+      "required": [
+        "0",
+        "10"
+      ],
+      "answerable": true,
+      "response": {
+        "answer": "InterviewForge practice sessions use a score range of 0 to 10.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 1.1142950057983398
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 1.3620057106018066
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.7843647003173828
+          }
+        ]
+      },
+      "elapsed_seconds": 5.121,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "salary",
+      "question": "What is the developer salary in Indian rupees? Answer only if stated in the uploaded notes.",
+      "answerable": false,
+      "response": {
+        "answer": "I couldn't find any information about the developer salary in Indian rupees in the uploaded notes.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 1.5187962055206299
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.6024128198623657
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 1.6385705471038818
+          }
+        ]
+      },
+      "elapsed_seconds": 13.504,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    },
+    {
+      "id": "employer",
+      "question": "Which employer deployed InterviewForge in production? Answer only if stated in the uploaded notes.",
+      "answerable": false,
+      "response": {
+        "answer": "There is no information in the provided Knowledge Vault about an employer deploying InterviewForge in production.",
+        "sources": [
+          {
+            "source": "InterviewForge_RAG_Demo.pdf",
+            "chunk": 0,
+            "preview": "InterviewForge AI \u2014 Public Technical Notes InterviewForge AI uses ChromaDB as its vector database. Its local large language model is Llama 3.2, served through Ollama. The backend is written in Python with FastAPI; the frontend uses React. The Knowled",
+            "distance": 0.9052378535270691
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 0,
+            "preview": "Public Project Notes \u2014 Sample Knowledge Vault Document AgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows. LangGraph routes requests to document retrieval or MCP tools. CrewAI coordinates agents for research, analysis ",
+            "distance": 1.3602206707000732
+          },
+          {
+            "source": "Public_Project_Notes.pdf",
+            "chunk": 1,
+            "preview": "onal LangSmith tracing supports debugging. These are public project descriptions, not private candidate information.",
+            "distance": 1.5256375074386597
+          }
+        ]
+      },
+      "elapsed_seconds": 12.607,
+      "focused_source_rank": 1,
+      "automatic_check_passed": true
+    }
+  ],
+  "summary": {
+    "answerable_fact_checks_passed": 6,
+    "answerable_cases": 6,
+    "abstention_checks_passed": 2,
+    "unanswerable_cases": 2,
+    "focused_source_top1_hits": 6,
+    "focused_source_mrr": 1.0,
+    "latency_seconds": {
+      "median": 6.41,
+      "mean": 9.609875,
+      "min": 4.877,
+      "max": 22.85,
+      "p95_nearest_rank": 22.85
+    },
+    "runs_per_case": 1
+  },
+  "manual_review": {
+    "review": "All eight complete answers inspected against the supplied public PDFs. Six factual answers matched the documented facts without observed contradictions; both unsupported questions explicitly declined.",
+    "answerable_correct": 6,
+    "answerable_total": 6,
+    "appropriate_abstentions": 2,
+    "unanswerable_total": 2,
+    "scope": "Single run; simple questions derived from the same public notes, not a held-out evaluation. No mock-interview grading accuracy is asserted."
+  }
+}

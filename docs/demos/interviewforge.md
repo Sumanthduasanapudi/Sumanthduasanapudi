@@ -31,7 +31,7 @@ A separate real API request asked for the developer’s salary, which is absent 
 - Model digest: `a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72`.
 - Two public sample documents, three indexed chunks. No private résumé or credentials in this demonstration.
 
-This is a recorded local demonstration, not a hosted LLM service. Mock-interview scoring and adaptive follow-up sessions have not been verified here.
+This is a recorded local demonstration, not a hosted LLM service. The document-Q&A recording is separate from the [five-question mock-interview demonstration and measured evaluation](./interviewforge-evaluation.md).
 
 ## Reproduce locally
 

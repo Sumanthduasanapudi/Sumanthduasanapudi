@@ -6,7 +6,7 @@ InterviewForge now has a completed real model-answer demonstration. AgentForge r
 
 The original UI now demonstrates real Llama 3.2 generation with expanded PDF sources. A separate unsupported salary question was correctly declined. See the [recording and reproduction notes](./interviewforge.md) and [actual response](./interviewforge-live-result.json).
 
-Next, verify a complete five-question mock interview, scoring and adaptive follow-ups. Those flows remain unverified.
+A [full five-question mock interview](./interviewforge-evaluation.md) now completes with actual scores, feedback and the final average. The run exposed inconsistent grading and repeated follow-ups; those are the next implementation improvements.
 
 ## AgentForge: Claude response pending secret configuration
 
