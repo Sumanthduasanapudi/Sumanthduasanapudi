@@ -14,6 +14,10 @@
   Computer Science and Engineering graduate (2026) building end-to-end AI applications across RAG, multi-agent workflows, MCP tool integration, news intelligence, and backend APIs.
 </p>
 
+<p align="center">
+  <a href="https://sumanth-ai-system-profile.vercel.app/"><b>🌐 Explore My Portfolio</b></a>
+</p>
+
 ---
 
 ## 👨‍💻 About Me
@@ -120,6 +124,7 @@ Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology · 20
 
 ## 🔗 Connect
 
+- Portfolio: [Sumanth — AI Engineering Portfolio](https://sumanth-ai-system-profile.vercel.app/)
 - LinkedIn: [Dusanapudi Sumanth](https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/)
 - GitHub: [@Sumanthduasanapudi](https://github.com/Sumanthduasanapudi)
 
