@@ -1,0 +1,9 @@
+AgentForge AI — Public Project Notes
+
+This is a sample document for a reproducible read-only MCP demonstration.
+AgentForge combines React and FastAPI with document retrieval and agent workflows.
+LangGraph routes requests to retrieval or approved tools.
+CrewAI coordinates research, analysis and review workflows.
+The MCP server exposes list_workspace_files, read_workspace_file and search_workspace.
+Tools operate only on permitted TXT and MD files in the local MCP workspace.
+No private documents, API keys or generated model answers are used in this sample.

@@ -41,22 +41,22 @@ I've built **four Generative AI applications** using **Python, FastAPI, and Reac
 
 > Four projects. A shared focus: connecting language models to useful, well-defined workflows.
 
+**Start with the evidence:** [AgentForge recording](./docs/demos/agentforge.md) · [InterviewForge recording](./docs/demos/interviewforge.md)
+
 <details open>
 <summary><b>01 &nbsp; AgentForge AI</b> &nbsp; — &nbsp; Multi-Agent RAG & MCP Platform</summary>
 
 <br>
 
-**Document Q&A and agent workflows in one application.**
-
-A Python, FastAPI, and React platform that uses **LangGraph** to route requests to document retrieval or **MCP tools**, with **CrewAI** agents coordinating research, analysis, and review.
-
-- Developed a Python, FastAPI, and React platform for document question answering and multi-agent workflows.
-- Used **LangGraph** to route requests to document retrieval or **MCP tools**.
-- Coordinated **CrewAI** agents for research, analysis, and review.
+A React and FastAPI workspace that uses **LangGraph** to route requests to document retrieval or **MCP tools**, with **CrewAI** agents coordinating research, analysis, and review.
 
 **Built with:** `Python` `FastAPI` `React` `LangGraph` `CrewAI` `RAG` `MCP`
 
-[**View repository & architecture ↗**](https://github.com/Sumanthduasanapudi/AgentForge)
+[**Watch the recorded MCP workflow ↗**](./docs/demos/agentforge.md) · [Source & architecture ↗](https://github.com/Sumanthduasanapudi/AgentForge)
+
+<img src="./assets/projects/agentforge-mcp.png" width="100%" alt="Real AgentForge MCP Tool Center showing a connected server, three discovered tools, and the result of reading public sample project notes">
+
+<sub>Actual local capture: read-only MCP discovery, file reading, and search. This recording uses an MCP-only runner; it does not claim completed model-generated answers.</sub>
 
 </details>
 
@@ -76,7 +76,11 @@ An interview-preparation app with **document Q&A, mock interviews, and Python st
 
 **Built with:** `Python` `FastAPI` `React` `ChromaDB` `Ollama` `Llama 3.2`
 
-[**View repository & architecture ↗**](https://github.com/Sumanthduasanapudi/InterviewForge-AI)
+[**Watch the recorded PDF-ingestion workflow ↗**](./docs/demos/interviewforge.md) · [Source & architecture ↗](https://github.com/Sumanthduasanapudi/InterviewForge-AI)
+
+<img src="./assets/projects/interviewforge-vault.png" width="100%" alt="Real InterviewForge interface showing a successfully uploaded public sample PDF, one document, and two Knowledge Vault chunks">
+
+<sub>Actual local capture: PDF upload and ChromaDB indexing. The recording also shows practice setup screens. Llama-generated answers are not demonstrated; see the reproduction notes and captured retrieval result.</sub>
 
 </details>
 
@@ -97,6 +101,10 @@ A React, Express.js, and FastAPI application that collects RSS articles, removes
 
 [**View repository & architecture ↗**](https://github.com/Sumanthduasanapudi/newspulse-ai)
 
+<img src="./assets/projects/newspulse-live-feed.png" width="100%" alt="Real NewsPulse dashboard receiving current headlines through the project's RSS collector">
+
+<sub>Actual local capture with the original RSS collector and a read-only runner. Saved example stories belong to the repository; Claude-generated briefings were not run during capture. [Capture scope](./docs/demos/evidence.md).</sub>
+
 </details>
 
 <details>
@@ -109,6 +117,12 @@ A React, Express.js, and FastAPI application that collects RSS articles, removes
 Integrated **Claude with FastAPI and Express.js** to convert transcripts in **3 formats—TXT, VTT, and JSON—into concise meeting notes**.
 
 **Built with:** `Python` `FastAPI` `Express.js` `Claude API`
+
+[**Open Meeting Minutes demo ↗**](https://ai-meeting-summary-dun.vercel.app/)
+
+<img src="./assets/projects/meeting-minutes-ui.png" width="100%" alt="AI Meeting Summary demo showing transcript upload, optional agenda and attendees, a security PIN field and the Generate Summary button">
+
+<sub>Screenshot of the public demo's input screen. The page loads; protected summary generation was not tested.</sub>
 
 </details>
 

@@ -1,0 +1,24 @@
+{
+  "query": "Which components does InterviewForge use for document retrieval?",
+  "retrieved_chunks": 2,
+  "sources": [
+    {
+      "text": "Public Project Notes \u2014 Sample Knowledge Vault Document\nAgentForge AI connects React and FastAPI to document Q&A and multi-agent workflows.\nLangGraph routes requests to document retrieval or MCP tools.\nCrewAI coordinates agents for research, analysis and review.\nInterviewForge AI offers document Q&A, mock interviews and Python study.\nIt ingests PDFs, chunks text, creates embeddings and uses persistent ChromaDB storage.\nIts application retrieves the top three chunks for local Llama 3.2 answers through Ollama.\nPractice sessions have five questions with scores from zero to ten, feedback and hints.\nNewsPulse collects RSS articles, deduplicates stories and groups headlines by meaning.\nIt produces source-attributed briefings with LangChain and Claude.\nPydantic validates structured output and optional LangSmith tracing supports debugging.\nThese are public project descriptions, not private candidate information.",
+      "metadata": {
+        "source": "Public_Project_Notes.pdf",
+        "chunk": 0
+      },
+      "distance": 0.7864561080932617
+    },
+    {
+      "text": "onal LangSmith tracing supports debugging.\nThese are public project descriptions, not private candidate information.",
+      "metadata": {
+        "chunk": 1,
+        "source": "Public_Project_Notes.pdf"
+      },
+      "distance": 1.5340032577514648
+    }
+  ],
+  "llm_generation_verified": false,
+  "run_scope": "Public sample PDF ingested and queried with the original helper functions in the same process."
+}
