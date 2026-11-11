@@ -14,7 +14,7 @@
     <a href="https://sumanth-ai-system-profile.vercel.app/"><img src="https://img.shields.io/badge/Explore_My_Portfolio-0B1427?style=for-the-badge&logo=googlechrome&logoColor=79E5EE" alt="Explore my portfolio"></a>
     <a href="https://www.linkedin.com/in/dusanapudi-sumanth-2925b3439/"><img src="https://img.shields.io/badge/LinkedIn-0B1427?style=for-the-badge&logo=linkedin&logoColor=F6BB72" alt="Connect on LinkedIn"></a>
     <a href="mailto:dusanapudisumanth@gmail.com"><img src="https://img.shields.io/badge/Email_Me-0B1427?style=for-the-badge&logo=gmail&logoColor=79E5EE" alt="Email Sumanth"></a>
-    <a href="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Sumanth_Dusanapudi_AI_Engineer_ATS.pdf"><img src="https://img.shields.io/badge/ATS_Resume-PDF-F6BB72?style=for-the-badge&logo=readthedocs&logoColor=0B1427" alt="Download ATS résumé PDF"></a>
+    <a href="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Dusanapudi_Sumanth_AI_Engineer_Resume_2026-11.pdf"><img src="https://img.shields.io/badge/Resume-PDF-F6BB72?style=for-the-badge&logo=readthedocs&logoColor=0B1427" alt="Download AI Engineer résumé PDF"></a>
   </p>
 
   <sub><a href="#project-evidence">EVIDENCE</a> &nbsp; / &nbsp; <a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
@@ -45,7 +45,7 @@
 | **NewsPulse** | [Screenshot](./assets/projects/newspulse-live-feed.png) · [Source](https://github.com/Sumanthduasanapudi/newspulse-ai) | Live RSS collection in the actual interface |
 | **Meeting Minutes** | [Open demo](https://ai-meeting-summary-dun.vercel.app/) | Transcript-upload interface loads; summary generation requires its configured access |
 
-[**Download ATS résumé (PDF)**](https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Sumanth_Dusanapudi_AI_Engineer_ATS.pdf) · [Portfolio](https://sumanth-ai-system-profile.vercel.app/) · [Email](mailto:dusanapudisumanth@gmail.com)
+[**Download AI Engineer résumé (PDF)**](https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Dusanapudi_Sumanth_AI_Engineer_Resume_2026-11.pdf) · [Portfolio](https://sumanth-ai-system-profile.vercel.app/) · [Email](mailto:dusanapudisumanth@gmail.com)
 
 <sub>These recordings verify the listed local flows. InterviewForge includes a real model-generated answer; AgentForge’s Claude answer remains pending. [Capture scope](./docs/demos/evidence.md) · [Full-answer verification steps](./docs/demos/next-verification.md).</sub>
 
@@ -73,7 +73,7 @@ I've built **four Generative AI applications** using **Python, FastAPI, and Reac
 
 > Four projects. A shared focus: connecting language models to useful, well-defined workflows.
 
-**Start with the evidence:** [AgentForge recording](./docs/demos/agentforge.md) · [InterviewForge recording](./docs/demos/interviewforge.md) · [ATS résumé (PDF)](https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Sumanth_Dusanapudi_AI_Engineer_ATS.pdf)
+**Start with the evidence:** [AgentForge recording](./docs/demos/agentforge.md) · [InterviewForge recording](./docs/demos/interviewforge.md) · [AI Engineer résumé (PDF)](https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Dusanapudi_Sumanth_AI_Engineer_Resume_2026-11.pdf)
 
 <details open>
 <summary><b>01 &nbsp; AgentForge AI</b> &nbsp; — &nbsp; Multi-Agent RAG & MCP Platform</summary>
