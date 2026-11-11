@@ -17,7 +17,7 @@
     <a href="https://raw.githubusercontent.com/Sumanthduasanapudi/Sumanthduasanapudi/main/resume/Dusanapudi_Sumanth_AI_Engineer_Resume_2026-11.pdf"><img src="https://img.shields.io/badge/Resume-PDF-F6BB72?style=for-the-badge&logo=readthedocs&logoColor=0B1427" alt="Download AI Engineer résumé PDF"></a>
   </p>
 
-  <sub><a href="#project-evidence">EVIDENCE</a> &nbsp; / &nbsp; <a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
+  <sub><a href="#project-evidence">EVIDENCE</a> &nbsp; / &nbsp; <a href="#about-me">ABOUT</a> &nbsp; / &nbsp; <a href="#professional-experience">EXPERIENCE</a> &nbsp; / &nbsp; <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#my-toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#education--certifications">EDUCATION</a> &nbsp; / &nbsp; <a href="#github-activity">ACTIVITY</a></sub>
 </div>
 
 <details>
@@ -53,9 +53,23 @@
 
 
 
-I'm **Sumanth Dusanapudi**, a **Computer Science and Engineering graduate (2026)** from Vel Tech, seeking an **entry-level AI Engineer role**.
+I'm **Sumanth Dusanapudi**, a **Computer Science and Engineering graduate (2026)** from Vel Tech, seeking an **entry-level AI Engineer role**. I completed a **six-month AI Engineer internship at ReveloSoft (May–October 2026)**, contributing to two production-oriented AI products: Tom & Jerry and CreditDoctor.
 
-I've built **four Generative AI applications** using **Python, FastAPI, and React**, covering **Retrieval-Augmented Generation (RAG), multi-agent workflows, local Large Language Models (LLMs), and structured summarization**. My work includes AgentForge AI, InterviewForge AI, NewsPulse, and an AI Meeting Minutes Summarizer.
+I build Generative AI applications with **Python, FastAPI, React, RAG, LangChain, LangGraph, CrewAI, and MCP**. My personal projects include AgentForge AI, InterviewForge AI, NewsPulse, and an AI Meeting Minutes Generator.
+
+## Professional Experience
+
+### AI Engineer Intern · ReveloSoft
+**May 2026 – October 2026**
+
+Contributed to two AI products:
+
+- **Tom & Jerry — AI Career and Hiring Agents** ([tomandjerry.ai](https://tomandjerry.ai)): built candidate interview flows and structured profiles, ATS-friendly CV generation with OpenAI structured outputs, resume parsing with Azure AI Document Intelligence, adaptive mock interviews with rubric-based feedback, job-tracking workflows, and employer-side role definition and candidate screening. Tested outputs for relevance, consistency, and hallucinations.
+- **CreditDoctor — AI Credit-Health Platform** ([creditdoctor.in](https://creditdoctor.in)): developed an assistant for analysing user-uploaded credit reports, designed prompts and JSON validation to extract accounts, enquiries, and discrepancies, added PII guardrails, and tested functional, boundary, and hallucination cases.
+
+**Internship tools:** OpenAI API, LLM APIs, Python, Azure AI Document Intelligence, structured outputs, prompt and context engineering, JSON validation, PII guardrails.
+
+---
 
 <details>
 <summary><b>View my visual profile</b></summary>
